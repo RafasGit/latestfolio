@@ -1,0 +1,397 @@
+  
+// .experience-page {
+ 
+//     height: 100vh;
+//     margin-top: 180rem;
+//     position: relative;
+// }
+
+#skills {
+  margin-left: 23%;
+  margin-top: -25%;
+  //border: solid red;
+  width: 250px;
+  font-size: 63px;
+
+  &:before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -10px;
+    left: 2%;
+    opacity: 0.6;
+    line-height: 18px;
+  }
+
+  &:after {
+    content: '<h1/>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    left: 60%;
+    bottom: -20px;
+    margin-left: 20px;
+    opacity: 0.6;
+  }
+}
+
+
+.skill {
+  position: relative;
+ // margin-top: 626rem;
+  border: solid blue;
+  top: 60%;
+
+  &__main-container {
+    position: relative;
+    top: 0;
+    padding: 2% 5%;
+    color: #ffffff;
+    margin-top: 2em;
+    border: red 1px;
+  }
+
+  &__inner-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__header {
+    position: relative;
+    top: 0;
+    text-align: left;
+    font-family: 'Coolvetica';
+    font-weight: bolder;
+   // letter-spacing: 0.2em;
+  //  text-transform: uppercase;
+    font-size: 53px;
+    color: #ffffff;
+    left: 50px;
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: '';
+      width: 10%;
+      height: 0.05em;
+   //   background-color: #00ffff;
+    }
+
+    // h1 {
+       
+    //     position: relative;
+    //     font-family: "Coolvetica";
+    //     display: inline-block;
+    //     opacity: 0;
+    //     animation: bounceIn;
+    //     animation-duration: 1s;
+    //     animation-delay: 1s;
+    //     animation-fill-mode: forwards;
+    //     min-width: 10px;
+        
+    // }
+  }
+
+  // &__heading {
+  //   // h1 {
+  //   //   position: relative;
+  //   //   display: inline-block;
+  //   //   animation: headingAnimation 2.5s ease-in-out 1;
+  //   //   animation-delay: 0.5s;
+  //   //   animation-fill-mode: forwards;
+  //   // }
+  // }
+
+  @keyframes headingAnimation {
+    0% {
+      left: 0;
+      font-size: 2em;
+    }
+    100% {
+      left: -43%;
+      font-size: 0.7em;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+    }
+  }
+
+  &__info {
+    height: 100%;
+  }
+
+  &__skill-tags {
+    letter-spacing: 0.05em;
+    span {
+      font-family: 'RedWingLight';
+      display: inline-block;
+      padding: 0.2em 1em;
+      border-radius: 0.25em;
+      background-color: #1c1e1e;
+      color: #00ffff;
+    }
+  }
+
+  &__details {
+    margin-top: 1.5em;
+    h4 {
+      font-family: 'RedWingLight';
+      letter-spacing: 0.1em;
+      font-size: 1em;
+      color: #00ffff;
+    }
+
+    ul {
+      list-style-position: inside;
+      margin-top: 0.2em;
+      margin-left: 1.5em;
+      li {
+        letter-spacing: 0.05em;
+        color: #00ffff;
+        list-style-position: outside;
+        span {
+          color: #ffffff;
+          font-family: 'Lato', sans-serif;
+          font-weight: 300;
+          b {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  
+   
+   
+
+    /* Change color of each text in sphere on hover   */
+    .tagcloud--item {
+      color: #854CE6;
+      text-transform: uppercase;
+    }
+
+    .tagcloud--item:hover {
+      color: #ffffff;
+    }
+  
+
+  
+
+
+ 
+
+  @media screen and (max-width: 960px) {
+    &__cloud {
+      position: relative;
+     left: 20%;
+      width: 61%;
+      top: 4rem;
+   //  height: 520px;
+      border: solid purple;
+    }
+    .tagcloud {
+      font-size: 2em;
+    }
+
+    #skills {
+      margin-left: 20%;
+    }
+  }
+
+  @media screen and (max-width: 893px) {
+    &__inner-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__info {
+      order: 2;
+    }
+
+    &__cloud {
+      align-self: center;
+    }
+
+    &__details-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    &__details {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__header {
+      font-size: 1.33em;
+    }
+
+    #skills{
+      margin-left: 10%;
+      border: solid red;
+    }
+  
+     &__cloud {
+      position: relative;
+      left: 10%;
+      width: 5%;
+      top: -6%;
+      margin-right: 14px;
+   //   height: 520px;
+      border: solid purple;
+    }
+    .tagcloud--item {
+      border: solid red;
+    }
+    
+  }
+
+  @media screen and (max-width: 538px) {
+    &__details-container {
+      flex-direction: column;
+    }
+    &__details {
+      width: 100%;
+    }
+  }
+}
+
+  
+@media screen and (max-width: 1200px) {
+  .skill{
+   background-color: #ff6347;
+   margin-top: 10em;
+   height: fit-content;
+  }
+
+  
+
+
+    #skills {
+      margin-left: -22%;
+      margin-top: -25%;
+      //border: solid red;
+      width: 250px;
+      font-size: 63px;
+    
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -2%;
+        opacity: 0.6;
+        line-height: 18px;
+      }
+    
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        line-height: 18px;
+        position: absolute;
+        left: 60%;
+        bottom: -3%;
+        margin-left: -4%;
+        opacity: 0.6;
+      }
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 768px)  {
+    #skills {
+      margin-left: 32rem;
+      margin-top: -16%;
+      //border: solid pink;
+     z-index: 1;
+    }
+
+   
+    
+
+    
+    
+  }
+
+  .containir {
+    display: flex;
+    justify-content: space-between; /* Adds some space between the divs */
+    height: 110vh;
+}
+
+.left,.right {
+   // flex: 1; /* Each div takes equal space */
+    padding: 20px; /* Just for demonstration */
+    box-sizing: border-box; /* Includes padding in the total width */
+    width: 50%;
+    border: solid red;
+    //height: 140vh;
+   
+  }
+  .right{
+    margin-top: 6rem;
+    left:10%
+  }
+
+/* Media query for smaller screens */
+@media (max-width: 1080px) {
+   
+   .containir {
+    margin-top: 30rem;
+      overflow: scroll;
+        flex-direction: column-reverse; /* Stacks the divs vertically, with the right one on top */
+        height: 185vh;
+      border: solid pink 10px;
+    }
+    .left{
+      order: 1;
+      height: 110vh;
+      overflow: scroll;
+      margin-top: -10rem;
+      padding-top: 2px;
+      width: 100%;
+    }
+    .right {
+      order:2;
+      height: 57vh;
+      margin-top: 3rem;
+      width: 100%;
+     
+      padding-top: 1rem;
+      overflow: scroll;
+    }
+    }
+
+.tagcloud {
+  position: relative;
+  top: 10;
+  left: 2%;
+  width: -0px;
+  order: 2;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.0725em;
+  // font-family: 'RedWingBold';
+  //font-size: 1.3em;
+  // font-family: 'Coolvetica';
+   font-size: 2em;
+  // border: solid pink 10px;
+}
+
+.tagd {
+ 
+  width: 10px;
+}

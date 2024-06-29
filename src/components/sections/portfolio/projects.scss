@@ -1,0 +1,10 @@
+section{
+    border: solid green;
+}
+
+@media  (max-width:768px) {
+   section{
+    height: 170vh;
+   } 
+    
+}
