@@ -95,7 +95,7 @@ return(
        
         <div className="containor contact-page">
         <div className="text-zane">
-        <div data-aos="zoom-in-right"
+        <div data-aos="zoom-in-up"
      data-aos-duration="2000">
           <h1 className='head'>
             <AnimatedLetters
