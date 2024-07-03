@@ -291,7 +291,7 @@
         font-size: 18px;
         line-height: 18px;
         position: absolute;
-        left: 16%;
+        left: 76%;
         bottom: -20px;
         margin-left: 20px;
         opacity: 0.6;
@@ -299,7 +299,31 @@
 
     }
   }
+@media screen and (max-width: 1200px) {
+  .text-zane{
+    left: 16%;
+    top: -48.5rem;
+  }
+  .leaflet-container{
+    height: 122vh;
+    width: 50%;
+    left: 50%;
+   top: 3.05em;
+   //border: solid red;
 
+  }
+ .parec{
+ // border: solid red;
+  width: 126%;
+  margin-left: -34px;
+ }
+  .parac {
+    font-size: 18px;
+    width: 240%;
+  //  border: solid red;
+  }
+  
+}
 @media screen and (max-width: 1068px) {
   .containor {
     border: solid red;
@@ -310,13 +334,14 @@
     width: 230%;
     max-width: 960px;
    // border: solid red;
-    margin-left: 8%;
+    margin-left: 7%;
     margin-bottom: 9%;
+    
   }
   .parec {
     margin-top: -1%;
     margin-bottom: -14%;
-    font-size: 16px;
+    font-size: 36px;
    }
   .contact-form {
     width: 230%;
@@ -328,7 +353,7 @@
     height: 34vh;
     width: 76%;
     left: 12%;
-   top: 50em;
+   top: 56em;
    border: solid red;
   }
   
@@ -339,7 +364,9 @@
     }
     .text-zane {
       width: 40%;
-      margin-left: -7%;
+      margin-left: -14%;
+     // font-size: 68px;
+     margin-top: 77.5%;
     }
 
     // .head {
@@ -377,8 +404,56 @@
     //   }
 
     // }
+  }
+    @media screen and (max-width: 968px) {
+    .text-zane{
+      margin-top: 77.5rem;
+      margin-left: -15%;
+    }
+    .parec{
+      width: 108%;
+      
+    }
+    .parac{
+     font-size: 16px;
+    }
+
+.leaflet-container{
+    height: 36vh;
+    width: 80%;
+    left: 12%;
+    top: 70rem;
+   border: solid red;
+  }
+
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 868px) {
+  .text-zane{
+    margin-top: 81.5rem;
+    margin-left: -13.5%;
+  }
+  .parec{
+    width: 108%;
+    
+  }
+  .parac{
+   font-size: 16px;
+  }
+
+.leaflet-container{
+  height: 36vh;
+  width: 80%;
+  left: 12%;
+  top: 70rem;
+ border: solid red;
+}
+
+}
+
+
+
+@media screen and (max-width: 760px) {
   .head {
     left: -18%;
   //  border: solid red;
@@ -397,7 +472,7 @@
     &:after {
       content: '<h1/>';
    
-      left: 6%;
+      left: 92%;
       bottom: -10px;
       margin-left: 20px;
       opacity: 0.6;
@@ -406,7 +481,7 @@
   }
   .text-zane {
     margin-top: 56%;
-    margin-left: -6.5%;
+    margin-left: -9.5%;
   }
 
   .leaflet-container{
@@ -417,11 +492,46 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 468px) {
   .head {
     left: -14%;
   //  border: solid red;
     width: 186%;
-    margin-top: 17rem;
+    margin-top: 19rem;
+ 
   }
+
+  .text-zane {
+    
+    margin-top: 166%;
+    margin-left: -11.5%;
+  }
+
+  .parac{
+    margin-left: 14%;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 356px) {
+  .head {
+    left: -14%;
+  //  border: solid red;
+    width: 195%;
+    margin-top: 29.5rem;
+ 
+  }
+
+  .text-zane {
+    
+    margin-top: 166%;
+    margin-left: -10.5%;
+  }
+
+  .parac{
+    margin-left: 14%;
+    font-size: 14px;
+  }
+
 }

@@ -146,6 +146,10 @@ const TextLoop = styled.div`
   line-height: 68px;
   //border: solid red;
   width: 810px;
+ 
+  @media (max-width: 1400px){
+   margin-left: -14.5%;
+  }
 
   @media (max-width: 960px) {
     text-align: center;
@@ -157,6 +161,17 @@ const TextLoop = styled.div`
     margin-bottom: 16px;
      margin-left: -9%;
    // border: solid red;
+  }
+
+   @media (max-width: 468px) {
+    text-align: center;
+    margin-left: 0.5rem;
+  }
+
+   @media (max-width: 368px) {
+    text-align: center;
+    margin-left: 0.5rem;
+    
   }
 `;
 
@@ -229,6 +244,12 @@ const Span = styled.div`
  
  }
 
+  @media (max-width: 368px) {
+    font-size: 32px;
+    line-height: 12px;
+  }
+
+
 `;
 
 const SubTitle = styled.div`
@@ -245,6 +266,8 @@ const SubTitle = styled.div`
     font-size: 16px;
     line-height: 32px;
   }
+
+ 
 `;
 
 

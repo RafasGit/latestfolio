@@ -14,11 +14,42 @@ const FooterContainer = styled.div`
   justify-content: center;
   position: relative;
   z-index: 1;
-   @media (max-width: 760px){
-    margin-top: 12rem;
+   
+ @media (max-width: 1300px){
+    margin-top: 83rem;
   }
-      @media (max-width: 400px){
+
+
+   @media (max-width: 1200px){
+    margin-top: 76rem;
+  }
+
+   @media (max-width: 1068px){
+    margin-top: -12rem;
+  }
+
+   @media (max-width: 968px){
+    margin-top: -12rem;
+  }
+  
+   @media (max-width: 868px){
+    margin-top: 6.5rem;
+  }
+
+
+   @media (max-width: 768px){
+    margin-top: 9rem;
+  }
+      @media (max-width: 460px){
     margin-top: 15rem;
+  }
+
+    @media (max-width: 380px){
+    margin-top: 29rem;
+  }
+
+   @media (max-width: 350px){
+    margin-top: 20rem;
   }
 `;
 

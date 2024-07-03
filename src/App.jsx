@@ -3,8 +3,10 @@ import './App.scss'
 import styled, { ThemeProvider } from "styled-components"
 import { darkTheme } from './utils/themes';
 import { BrowserRouter } from "react-router-dom";
+import PortfolioDetails from './components/Dialog/PortfolioDetails';
 import Hero from './components/sections/hero/Hero';
 import Skills from './components/sections/skills/skills';
+import Experience from './components/sections/experience/experience';
 import Portfolio from './components/sections/portfolio/projects';
 import Contact from './components/sections/contacts/contact';
 import Footer from './components/sections/footer/footer';
@@ -35,7 +37,7 @@ const Wrapper = styled.div`
 
 
 function App() {
-  
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
 <ThemeProvider theme={darkTheme}>
  <BrowserRouter>
@@ -45,12 +47,19 @@ function App() {
        <Hero />
        <Wrapper>
         <Skills />
-        <Portfolio />
+        <Experience />
+        <Portfolio openModal={openModal} setOpenModal={setOpenModal} />
         </Wrapper>
         
         <Contact />
         <Footer />
         
+        {openModal.state && (
+                <PortfolioDetails
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              )}
     
     </div>
 

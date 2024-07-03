@@ -346,6 +346,18 @@
     left:10%
   }
 
+  @media (max-width: 1200px) {
+   .containir{
+    height: 170vh;
+    //width:
+   //margin-left: -4em;
+
+   }
+   .right{
+    margin-top: 27%;
+   }
+    }
+
 /* Media query for smaller screens */
 @media (max-width: 1080px) {
    

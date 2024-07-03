@@ -18,6 +18,10 @@ const HeroContainer = styled.div`
   border: solid red;
   height: 100%;
   
+  @media (max-width: 1200px) {
+  height: 150vh;
+  margin-bottom: 10rem;
+  }
 
   @media (max-width: 960px) {
     padding: 66px 16px;
@@ -70,6 +74,16 @@ width: 73%;
   //margin-left: -65%;
   justify-content: center;
   align-items:flex-start;
+
+  @media (max-width: 1280px){
+   width:126%;
+   margin-left:-4%;
+  }
+
+  @media (max-width: 1200px){
+   width:125%;
+   margin-left:-4%;
+  }
 
   @media (max-width: 960px) {
      max-width: 720px;
