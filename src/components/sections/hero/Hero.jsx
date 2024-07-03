@@ -151,6 +151,10 @@ const TextLoop = styled.div`
    margin-left: -14.5%;
   }
 
+  @media (max-width: 1200px){
+   margin-left: -1.5%;
+  }
+
   @media (max-width: 960px) {
     text-align: center;
   }
