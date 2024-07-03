@@ -485,7 +485,7 @@ const Skills = () => {
     </div>
     </div>
     <div class="right">
-    <div data-aos="zoom-in-left"
+    <div data-aos="fade-up"
      data-aos-duration="2000">
       Right Content
       <div className="containr flex-containr">
