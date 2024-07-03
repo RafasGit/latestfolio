@@ -6,7 +6,15 @@ import ProjectCard from '../../Card/ProjectCard';
 //import './myprojects.scss'
 //  import AnimatedLetters from '../../AnimatedLetters';
 import AnimatedLetters from '../../AnimatedLetters';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 import './projects.scss'
+
+
+
 const Container = styled.div`
 margin-top: 9px;
 display: flex;
@@ -118,7 +126,9 @@ const Portfolio = ({ openModal, setOpenModal }) => {
     }, [])
 
   return (
-    <section className='portfolio section' id='portfolio'>
+    <div data-aos="fade-up"
+    data-aos-duration="2000">
+       <section className='portfolio section' id='portfolio'>
     <Container>
       <Wrapper>
       <h1>
@@ -198,7 +208,9 @@ const Portfolio = ({ openModal, setOpenModal }) => {
       </Wrapper>
     </Container>
     </section>
-  );
+
+      </div>
+     );
 }
 
 export default Portfolio;

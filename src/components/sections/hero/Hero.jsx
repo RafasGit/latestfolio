@@ -17,7 +17,7 @@ import {
     faReact,
   } from '@fortawesome/free-brands-svg-icons'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import './index.scss'
+  import './Hero.scss'
 
   const HeroContainer = styled.div`
   display: flex;

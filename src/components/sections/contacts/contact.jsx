@@ -12,7 +12,12 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
- import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 import './contact.scss' 
 
  const Container = styled.div`
@@ -87,9 +92,11 @@ const Contact = () => {
     }
   
 return(
-   
+       
         <div className="containor contact-page">
         <div className="text-zane">
+        <div data-aos="zoom-in-right"
+     data-aos-duration="2000">
           <h1 className='head'>
             <AnimatedLetters
               letterClass={letterClass}
@@ -146,6 +153,7 @@ return(
             </form>
           </div>
         </div>
+        </div>
         {/* <div className="info-map">
 Joshua Ng'ang'a          <br />
            <a>
@@ -160,6 +168,8 @@ Joshua Ng'ang'a          <br />
           <span>freelancerslobodan@gmail.com</span>
         </div> */}
         <div className="map-wrap">
+        <div data-aos="zoom-in-left"
+     data-aos-duration="2000">
         <MapContainer center={position} zoom={13} scrollWheelZoom={true}>
       <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       <Marker position={position}>
@@ -185,6 +195,7 @@ Joshua Ng'ang'a          <br />
   
        </div>
 
+      </div>
       </div>
 
 )

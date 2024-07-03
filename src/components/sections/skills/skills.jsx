@@ -452,11 +452,12 @@ const Skills = () => {
     //       </div>
     //   </HeroContainer>
 
-    <div data-aos="fade-up"
-     data-aos-duration="3000">
+    
       <div class="containir">
+     
     <div class="left">
-      
+    <div data-aos="zoom-in-right"
+     data-aos-duration="2000">
     Left Content
     <SkillsContainer>
             {skills.map((skill, index) => (
@@ -482,8 +483,10 @@ const Skills = () => {
              </SkillsContainer>
     
     </div>
+    </div>
     <div class="right">
-   
+    <div data-aos="zoom-in-left"
+     data-aos-duration="2000">
       Right Content
       <div className="containr flex-containr">
       <div className="tagcloud" >
@@ -500,9 +503,10 @@ const Skills = () => {
       </div>
      
       </div>
+      </div>
 </div>
     
-</div>
+
     )
 }
 
