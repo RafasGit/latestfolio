@@ -27,6 +27,12 @@ import {
   z-index: 1;
   border: solid red;
   height: 85vh;
+  
+  @media (max-width: 1260px) {
+    
+  height: 100vh;
+  margin-bottom: 10px;
+  }
 
   @media (max-width: 960px) {
     padding: 66px 16px;

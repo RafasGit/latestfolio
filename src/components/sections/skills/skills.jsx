@@ -134,12 +134,23 @@ const Skill = styled.div`
   padding: 18px 36px;
   //rgba(255, 255, 255, 0.125)
 
+   @media (max-width: 1268px) {
+    border: solid purple;
+    width: 60%;
+    margin-left: -10%;
+    padding: 10px 20px; 
+
+   }
+
   @media (max-width: 968px) {
     border: solid blue;
     width: 20rem;
    // gap: 10px;
     margin-right: 20px;
     margin-top: 2rem;
+    margin-left: 0%;
+     padding: 10px 26px; 
+
   }
   @media (max-width: 768px) {
     max-width: 400px;
@@ -147,12 +158,14 @@ const Skill = styled.div`
    // border: solid orange;
    // height: 25vh;
      margin-top: -4%
+     margin-left: 0%;
     //font-size: 28px;
-    
+      padding: 10px 26px; 
   }
 
   @media (max-width: 500px) {
     max-width: 330px;
+    margin-left: 0%;
     padding: 10px 36px;
   }
 `;
