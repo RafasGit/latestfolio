@@ -8,6 +8,10 @@ import { Tilt } from "react-tilt";
 //import TagCloud from 'TagCloud';
  import TagSphere from "../../tag-sphere/src";
 import AnimatedLetters from "../../AnimatedLetters";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const HeroContainer = styled.div`
   display: flex;
@@ -447,7 +451,10 @@ const Skills = () => {
          
     //       </div>
     //   </HeroContainer>
-    <div class="containir">
+
+    <div data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="containir">
     <div class="left">
       
     Left Content
@@ -493,6 +500,8 @@ const Skills = () => {
       </div>
      
       </div>
+</div>
+    
 </div>
     )
 }
