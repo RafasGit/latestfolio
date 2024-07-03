@@ -3,7 +3,6 @@ import './App.scss'
 import styled, { ThemeProvider } from "styled-components"
 import { darkTheme } from './utils/themes';
 import { BrowserRouter } from "react-router-dom";
-import PortfolioDetails from './components/Dialog/PortfolioDetails';
 import Hero from './components/sections/hero/Hero';
 import Skills from './components/sections/skills/skills';
 import Experience from './components/sections/experience/experience';
@@ -12,6 +11,8 @@ import Contact from './components/sections/contacts/contact';
 import Footer from './components/sections/footer/footer';
 import Navbar from './components/Navbar';
 import Sphere from './components/sections/sphr/sphr';
+import PortfolioDetails from './components/Dialog/PortfolioDetails';
+
 const Body = styled.div`
  background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -54,12 +55,12 @@ function App() {
         <Contact />
         <Footer />
         
-        {openModal.state && (
+        {/* {openModal.state && (
                 <PortfolioDetails
                   openModal={openModal}
                   setOpenModal={setOpenModal}
                 />
-              )}
+              )} */}
     
     </div>
 
