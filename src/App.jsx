@@ -55,12 +55,12 @@ function App() {
         <Contact />
         <Footer />
         
-        {/* {openModal.state && (
+         {openModal.state && (
                 <PortfolioDetails
                   openModal={openModal}
                   setOpenModal={setOpenModal}
                 />
-              )} */}
+              )} 
     
     </div>
 
