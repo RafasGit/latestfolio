@@ -11,7 +11,7 @@ import Contact from './components/sections/contacts/contact';
 import Footer from './components/sections/footer/footer';
 import Navbar from './components/Navbar';
 import Sphere from './components/sections/sphr/sphr';
-import PortfolioDetails from './components/Dialog/PortfolioDetails';
+//import PortfolioDetails from './components/Dialog/PortfolioDetails';
 
 const Body = styled.div`
  background-color: ${({ theme }) => theme.bg};
