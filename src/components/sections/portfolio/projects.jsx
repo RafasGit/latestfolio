@@ -105,7 +105,7 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
   //border: solid red;
   height: 95vh;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 const Portfolio = ({ openModal, setOpenModal }) => {
