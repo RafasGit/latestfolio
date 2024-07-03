@@ -389,18 +389,59 @@ span {
 .flat-button {
   margin-left: 2%;
 }
-  
-       
     }
 
-    @media screen and (max-width: 1080px) {
+
+@media screen and (max-width: 1100px) {
+  
+  
+       
+}
+
+    @media screen and (max-width: 1090px) {
       .text-zone {
         margin-left: 6rem;
-        margin-top: 6rem;
+        margin-top: 24rem;
       }
       .sprid {
-        margin-left: 10rem;
+        margin-left: 8rem;
       }
+
+      .intro {
+        color: #fff;
+        font-size: 58px;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+      
+        &:before {
+          content: '<h1>';
+          font-family: 'La Belle Aurore', cursive;
+          color: #ffd700;
+          font-size: 18px;
+          position: absolute;
+          margin-top: -40px;
+          left: 2%;
+          opacity: 0.6;
+        }
+      
+        &:after {
+          content: '<h1/>';
+          font-family: 'La Belle Aurore', cursive;
+          color: #ffd700;
+          font-size: 18px;
+          position: absolute;
+          margin-top: -16px;
+          margin-left: -400px;
+          left: 168%;
+          animation: fadeIn 1s 1.7s backwards;
+          opacity: 0.6;
+         // border: solid red;
+          width: 40px;
+        }
+      
+      
     }
 
     @media screen and (max-width: 968px) {
@@ -646,4 +687,4 @@ span {
       transform: translateY(-2000px);
     }
   }
-    
+} 

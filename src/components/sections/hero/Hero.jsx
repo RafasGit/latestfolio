@@ -301,7 +301,7 @@ const Hero = () => {
     'p',
     'e',
     'r',
-    '',
+    '.',
   ]
 
   useEffect(() => {
