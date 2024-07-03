@@ -456,7 +456,7 @@ const Skills = () => {
       <div class="containir">
      
     <div class="left">
-    <div data-aos="zoom-in-right"
+    <div data-aos="fade-up"
      data-aos-duration="2000">
     Left Content
     <SkillsContainer>
