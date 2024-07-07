@@ -145,7 +145,7 @@ const Skillst = () => {
         <h1>
                    <AnimatedLetters
                      letterClass={letterClass}
-                     strArray={['E','x','p','e','r', 'i ','e','n','c','e']}
+                     strArray={['S','k','i','l','l', 's ']}
                      idx={15}
                    />
                  </h1>
@@ -155,8 +155,8 @@ const Skillst = () => {
             marginBottom: "40px",
           }}
         >
-          My work experience as a software engineer and working on different
-          companies and projects.
+          Languages,frameworks and technologies I have interacted with as a software engineer working on different
+            projects.
         </Desc>
       
             
