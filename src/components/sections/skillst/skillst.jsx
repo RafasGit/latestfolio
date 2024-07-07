@@ -155,7 +155,7 @@ const Skillst = () => {
             marginBottom: "40px",
           }}
         >
-          Languages,frameworks and technologies I have interacted with as a software engineer working on different
+          Languages,frameworks and technologies I have interacted with working on different
             projects.
         </Desc>
       

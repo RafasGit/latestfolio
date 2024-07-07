@@ -557,7 +557,7 @@ p {
   }
    
 }
- 
+
 
 @media (max-width: 411px) and (min-height: 701px ) {
   .skills-container > * {
@@ -589,7 +589,7 @@ p {
     margin-top: -10%;
   }
   .text-zne {
-    left: -9.2%;
+    left: -9.6%;
     top: -14%;
     width: 100%;
   }
@@ -671,8 +671,8 @@ p {
     margin-top: -30px;
   }
   .text-zne {
-    left: 2%;
-    top: 1.5% ;
+    left: 2.2%;
+    top: 5.8% ;
     width: 89%;
   }
    
@@ -782,3 +782,14 @@ p {
    border: solid 20px #00ffff !important;
   }
  }
+
+  
+@media (min-width: 375px) and (max-width: 390px) and (min-height: 801px ) {
+  .containir {
+    //border: solid brown 12px !important;
+  }
+
+  .text-zne {
+    top: -2.8px;
+  }
+}
