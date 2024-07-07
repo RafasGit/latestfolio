@@ -62,7 +62,8 @@ const Experience = () => {
   }, [])
 
   return (
-    <Container id="Experience">
+    <Container data-aos="fade-up"
+    data-aos-duration="2000" id="Experience">
       <Wrapper>
         <Title>
         <h1>

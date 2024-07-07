@@ -93,10 +93,10 @@ const Contact = () => {
   
 return(
        
-        <div className="containor contact-page">
-        <div className="text-zane">
         <div data-aos="zoom-in-up"
-     data-aos-duration="2000">
+        data-aos-duration="2000" className="containor contact-page">
+        <div className="text-zane">
+        <div >
           <h1 className='head'>
             <AnimatedLetters
               letterClass={letterClass}

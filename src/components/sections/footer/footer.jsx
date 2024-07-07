@@ -16,20 +16,20 @@ const FooterContainer = styled.div`
   z-index: 1;
    
  @media (max-width: 1300px){
-    margin-top: 83rem;
+    margin-top: 86rem;
   }
 
 
    @media (max-width: 1200px){
-    margin-top: 76rem;
+    margin-top: 79rem;
   }
 
    @media (max-width: 1068px){
-    margin-top: -12rem;
+    margin-top: -10rem;
   }
 
    @media (max-width: 968px){
-    margin-top: -12rem;
+    margin-top: -6rem;
   }
   
    @media (max-width: 868px){

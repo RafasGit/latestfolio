@@ -9,7 +9,7 @@
       color: #ffd700;
       font-size: 18px;
       position: absolute;
-      margin-top: -10px;
+      margin-top: -4px;
       left: 30%;
       opacity: 0.6;
       line-height: 18px;
@@ -22,8 +22,8 @@
       font-size: 18px;
       line-height: 18px;
       position: absolute;
-      left: 30%;
-      bottom: -20px;
+      left: 63%;
+      bottom: -12px;
       margin-left: 20px;
       opacity: 0.6;
     }
@@ -422,7 +422,7 @@
     height: 36vh;
     width: 80%;
     left: 12%;
-    top: 70rem;
+    top: 59rem;
    border: solid red;
   }
 
@@ -438,7 +438,7 @@
     
   }
   .parac{
-   font-size: 16px;
+   font-size: 17px;
   }
 
 .leaflet-container{
@@ -456,7 +456,7 @@
 @media screen and (max-width: 760px) {
   .head {
     left: -18%;
-  //  border: solid red;
+    border: solid red;
     width: 165%;
     margin-top: 23rem;
 
@@ -472,9 +472,9 @@
     &:after {
       content: '<h1/>';
    
-      left: 92%;
+      left: 89%;
       bottom: -10px;
-      margin-left: 20px;
+      margin-left: -4px;
       opacity: 0.6;
     }
 
@@ -494,11 +494,28 @@
 
 @media screen and (max-width: 468px) {
   .head {
-    left: -14%;
+    left: -15%;
   //  border: solid red;
     width: 186%;
     margin-top: 19rem;
- 
+   
+    &:before {
+      content: '<h1>';
+    
+      margin-top: -10px;
+      left: -1%;
+      opacity: 0.6;
+      line-height: 18px;
+    }
+
+    &:after {
+      content: '<h1/>';
+     width: 20%;
+      left: 86%;
+      bottom: -20px;
+      margin-left: 24px;
+      opacity: 0.6;
+    }
   }
 
   .text-zane {
@@ -510,6 +527,18 @@
   .parac{
     margin-left: 14%;
     font-size: 14px;
+  }
+
+}
+
+
+@media screen and (max-width: 396px) {
+  .head {
+    left: -15%;
+  //  border: solid red;
+    width: 186%;
+    margin-top: 19rem;
+ 
   }
 
 }

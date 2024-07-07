@@ -5,6 +5,7 @@ import { darkTheme } from './utils/themes';
 import { BrowserRouter } from "react-router-dom";
 import Hero from './components/sections/hero/Hero';
 import Skills from './components/sections/skills/skills';
+import Skillst from './components/sections/skillst/skillst';
 import Experience from './components/sections/experience/experience';
 import Portfolio from './components/sections/portfolio/projects';
 import Contact from './components/sections/contacts/contact';
@@ -48,6 +49,7 @@ function App() {
        <Hero />
        <Wrapper>
         <Skills />
+        <Skillst />
         <Experience />
         <Portfolio openModal={openModal} setOpenModal={setOpenModal} />
         </Wrapper>

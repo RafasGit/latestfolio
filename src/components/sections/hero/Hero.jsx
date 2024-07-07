@@ -30,8 +30,8 @@ import {
   
   @media (max-width: 1260px) {
     
-  height: 100vh;
-  margin-bottom: 10px;
+  height: 80vh;
+  margin-bottom: 20px;
   }
 
   @media (max-width: 960px) {
@@ -39,8 +39,8 @@ import {
   }
 
   @media (max-width: 760px) {
-    padding: 210px 16px;
-    height: 80vh;
+    padding: 120px 1px;
+    height: 70vh;
   }
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
@@ -180,7 +180,8 @@ const TextLoop = styled.div`
 
    @media (max-width: 368px) {
     text-align: center;
-    margin-left: 0.5rem;
+    margin-left: -0.41rem;
+    font-size: 15px;
     
   }
 `;
@@ -254,9 +255,14 @@ const Span = styled.div`
  
  }
 
+ @media (max-width: 398px) {
+      margin-left: -4.5rem;
+    //line-height: 36px;
+  }
+
   @media (max-width: 368px) {
-    font-size: 32px;
-    line-height: 12px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
 

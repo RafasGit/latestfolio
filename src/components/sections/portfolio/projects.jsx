@@ -112,8 +112,15 @@ const CardContainer = styled.div`
   gap: 28px;
   flex-wrap: wrap;
   //border: solid red;
-  height: 95vh;
+  height: fit-content;
+ // z-index; 2;
   overflow: auto;
+  margin-bottom: 126px;
+
+  @media and (max-width: 500px){
+      margin-bottom: 50px;
+  } 
+
 `;
 
 const Portfolio = ({ openModal, setOpenModal }) => {
