@@ -124,7 +124,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
         </Tags>
         <Details>
           <Title>{project.title}</Title>
-          <Date>{project.date}</Date>
+          <Date>{project.caption}</Date>
           <Description>{project.description}</Description>
         </Details>
         <Members>
