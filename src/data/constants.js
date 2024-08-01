@@ -358,7 +358,7 @@ export const Bio = {
     {
       id: 1,
       title: "booknpay",
-      caption: "Appointment scheduling",
+      caption: "Appointment Scheduling",
       description:
         "Provide technical service consultation by offering your services and providing an opportunity for users to schedule appointments.",
       image:
