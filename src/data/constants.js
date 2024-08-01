@@ -379,7 +379,7 @@ export const Bio = {
     },
     {
       id: 2,
-      title: "Brain Tumor Detection",
+      title: "mzito",
       date: "Jan 2023 - Mar 2023",
       description:
         "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
