@@ -279,8 +279,8 @@ export const Bio = {
   export const projects = [
     {
       id: 11,
-      title: "Fintter",
-      date: "Jan 2024 - Dec 2023",
+      title: "fintter",
+      caption: "Financial SAAS",
       description:
         "Streamline your financial transactions through income and expense analytics. Create multiple accounts, transactions and categories for various types of incomes and expenditures. CSV upload for transactions available.",
       image:
@@ -301,10 +301,10 @@ export const Bio = {
     },
     {
       id: 9,
-      title: "Trackify",
-      date: "Jun 2023 - Jul 2023",
+      title: "letslearn",
+      caption: "CMS",
       description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+        "Create, customize and sell your technical courses. Letslearn is a Conent Management System that allows you to create your educational courses and provide image, video and text resources. Process course payments using Stripe Checkout.",
       image:
         "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
       tags: [
@@ -328,7 +328,7 @@ export const Bio = {
     },
     {
       id: 0,
-      title: "Podstream",
+      title: "Streamit",
       date: "Apr 2023 - May 2023",
       description:
         "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
