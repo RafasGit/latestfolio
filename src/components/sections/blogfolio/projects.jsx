@@ -164,6 +164,11 @@ const Blogfolio = ({ openModal, setOpenModal }) => {
           apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
+          <ToggleButton>
+            Blogs
+          </ToggleButton>
+        </ToggleButtonGroup>
+        <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}

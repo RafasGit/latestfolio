@@ -52,8 +52,9 @@ function App() {
         <Skillst />
         <Experience />
         <Portfolio openModal={openModal} setOpenModal={setOpenModal} />
+
         </Wrapper>
-        
+      
         <Contact />
         <Footer />
         
