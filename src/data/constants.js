@@ -380,7 +380,7 @@ export const Bio = {
     {
       id: 2,
       title: "mzitosupercuts",
-      caption: "23",
+      caption: "Service provision",
       description:
         "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
       image:
