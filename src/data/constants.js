@@ -282,7 +282,7 @@ export const Bio = {
       title: "Fintter",
       date: "Jan 2024 - Dec 2023",
       description:
-        "Streamline your financial transactions through income and expense analytics. Create multiple accounts and transactions for various types of spending and categorize financial transactions. CSV upload for transactions available.",
+        "Streamline your financial transactions through income and expense analytics. Create multiple accounts, transactions and categories for various types of incomes and expenditures. CSV upload for transactions available.",
       image:
         "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
       tags: [
