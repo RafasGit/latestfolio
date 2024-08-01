@@ -62,10 +62,14 @@ const Skill = styled.div`
   padding: 0px 30px;
   margin-bottom: 20px;
 
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1068px) {
   width: 75%;   
-  margin-left: -32.5%;
+  margin-left: -19.5%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  width: 75%;   
+  margin-left: -35.5%;
 }
 
   @media (max-width: 768px) {

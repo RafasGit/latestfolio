@@ -731,7 +731,7 @@ p {
   .right{
     margin-left: 51%;
     width: 50%;
-    margin-top: 8rem;
+    margin-top: 11rem;
     border: solid pink;
     height: 100vh;
     
@@ -741,7 +741,7 @@ p {
    // border: solid green;
     padding-top: 0%;
     overflow: auto !important;
-    margin-top: -89%;
+    margin-top: -95%;
     height: 80vh;
    // padding: 0%;
    // box-sizing: border-box;
@@ -771,31 +771,43 @@ p {
 }
 
 @media (min-width: 968px) and (max-width: 1024px) {
+
+  .containir {
+    height:50vh;
+    overflow: visible;
+  }
   .right{
     margin-left: 51%;
     width: 50%;
-    margin-top: 16rem;
+    margin-top: 0;
     border: solid pink;
-    height: 100vh;
+    height: 50vh;
     
 
   }
   .left {
    // border: solid green;
     padding-top: 0%;
-    overflow: auto !important;
-    margin-top: -100%;
-    height: 80vh;
+    overflow: visible !important;
+    margin-top: -134%;
+    height: 40vh;
+    width: 50%;
+    bottom: 10rem;
    // padding: 0%;
    // box-sizing: border-box;
    // background-color:cadetblue;
   
   
   }
+  .hrd {
+    left: 4%;
+    width: 100%
+    //z-index: 1;
+  }
   .text-zne {
-    left: -4.2%;
-    top: 7.5%;
-    width: 50%;
+    left:-2.2%;
+    top: -19.5%;
+    width: 100%;
 }
 }
 
