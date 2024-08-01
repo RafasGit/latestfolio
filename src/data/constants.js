@@ -282,7 +282,7 @@ export const Bio = {
       title: "Fintter",
       date: "Jan 2024 - Dec 2023",
       description:
-        "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+        "Streamline your financial transactions through income and expense analytics. Create multiple accounts and transactions for various types of spending and categorize financial transactions. CSV upload for transactions available.",
       image:
         "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
       tags: [
