@@ -718,7 +718,7 @@ p {
 }
 
 /* Style for medium devices */
-@media (min-width: 767px) and (max-width: 967px) {
+@media (min-width: 768px) and (max-width: 967px) {
   .skills-container > * {
     flex-basis: calc(50% - 10px); /* Adjusting for margins/padding */
   }
@@ -731,7 +731,7 @@ p {
   .right{
     margin-left: 51%;
     width: 50%;
-    margin-top: 16rem;
+    margin-top: 8rem;
     border: solid pink;
     height: 100vh;
     
@@ -741,7 +741,7 @@ p {
    // border: solid green;
     padding-top: 0%;
     overflow: auto !important;
-    margin-top: -100%;
+    margin-top: -89%;
     height: 80vh;
    // padding: 0%;
    // box-sizing: border-box;
@@ -774,7 +774,7 @@ p {
   .right{
     margin-left: 51%;
     width: 50%;
-    margin-top: 18rem;
+    margin-top: 16rem;
     border: solid pink;
     height: 100vh;
     
