@@ -357,10 +357,10 @@ export const Bio = {
     },
     {
       id: 1,
-      title: "Vexa",
-      date: "Oct 2022 - Jan 2023",
+      title: "booknpay",
+      caption: "Appointment scheduling",
       description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+        "Provide technical service consultation by offering your services and providing an opportunity for users to schedule appointments.",
       image:
         "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
       tags: [
