@@ -167,8 +167,11 @@ const Portfolio = ({ openModal, setOpenModal }) => {
           <ToggleButton>
             Projects
           </ToggleButton>
-          
           <Divider />
+
+          <ToggleButton>
+            Blogs
+          </ToggleButton>
         </ToggleButtonGroup>
         <ToggleButtonGroup>
           <ToggleButton

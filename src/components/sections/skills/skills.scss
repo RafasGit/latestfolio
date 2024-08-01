@@ -456,7 +456,7 @@ p {
 
 .tagcloud {
   position: relative;
-  top: 10;
+  top: 1%;
   left: 2%;
   width: -0px;
   order: 2;
@@ -718,7 +718,7 @@ p {
 }
 
 /* Style for medium devices */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 967px) {
   .skills-container > * {
     flex-basis: calc(50% - 10px); /* Adjusting for margins/padding */
   }
@@ -731,7 +731,7 @@ p {
   .right{
     margin-left: 51%;
     width: 50%;
-    margin-top: 18rem;
+    margin-top: 16rem;
     border: solid pink;
     height: 100vh;
     
@@ -767,6 +767,30 @@ p {
     font-size: 16px;
     margin-bottom: 13px;
    // border: solid red;
+  }
+}
+
+@media (min-width: 968px) and (max-width: 1024px) {
+  .right{
+    margin-left: 51%;
+    width: 50%;
+    margin-top: 18rem;
+    border: solid pink;
+    height: 100vh;
+    
+
+  }
+  .left {
+   // border: solid green;
+    padding-top: 0%;
+    overflow: auto !important;
+    margin-top: -100%;
+    height: 80vh;
+   // padding: 0%;
+   // box-sizing: border-box;
+   // background-color:cadetblue;
+  
+  
   }
 }
 
