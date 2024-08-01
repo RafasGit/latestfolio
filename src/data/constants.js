@@ -302,7 +302,7 @@ export const Bio = {
     {
       id: 9,
       title: "letslearn",
-      caption: "CMS",
+      caption: "LMS",
       description:
         "Create, customize and sell your technical courses. Letslearn is a Conent Management System that allows you to create your educational courses and provide image, video and text resources. Process course payments using Stripe Checkout.",
       image:
