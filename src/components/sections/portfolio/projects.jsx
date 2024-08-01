@@ -164,6 +164,13 @@ const Portfolio = ({ openModal, setOpenModal }) => {
           apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
+          <ToggleButton>
+            Projects
+          </ToggleButton>
+          
+          <Divider />
+        </ToggleButtonGroup>
+        <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -193,7 +200,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
             MACHINE LEARNING
           </ToggleButton>
             <Divider />
-            
+
           <ToggleButton
             active={toggle === "machine learning"}
             onClick={() => setToggle("machine learning")}
