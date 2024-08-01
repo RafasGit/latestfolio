@@ -123,7 +123,7 @@ const CardContainer = styled.div`
 
 `;
 
-const Portfolio = ({ openModal, setOpenModal }) => {
+const Blogfolio = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all"); 
   const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
@@ -228,4 +228,4 @@ const Portfolio = ({ openModal, setOpenModal }) => {
      );
 }
 
-export default Portfolio;
+export default Blogfolio;
