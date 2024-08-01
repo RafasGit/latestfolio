@@ -380,9 +380,9 @@ export const Bio = {
     {
       id: 2,
       title: "mzitosupercuts",
-      caption: "Service Provider Appointment Scheduling and Checkout",
+      caption: "Service Provider Scheduling and Checkout",
       description:
-        "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Barbershop website that enables users to view the various services on offer as well schedule an appointment for a service of their choice and complete payment of booking fee.",
       image:
         "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
