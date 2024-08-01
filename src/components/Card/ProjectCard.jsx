@@ -68,7 +68,7 @@ const Title = styled.div`
   text-overflow: ellipsis;
 `;
 
-const Date = styled.div`
+const Caption = styled.div`
   font-size: 12px;
   margin-left: 2px;
   font-weight: 400;
@@ -124,7 +124,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
         </Tags>
         <Details>
           <Title>{project.title}</Title>
-          <Date>{project.caption}</Date>
+          <Caption>{project.caption}</Caption>
           <Description>{project.description}</Description>
         </Details>
         <Members>
