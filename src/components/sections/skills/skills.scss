@@ -724,9 +724,13 @@ p {
   }
 
   .containir {
-    border: solid grey;
+    z-index: 1;
+   // border: solid grey;
     margin-top: 10%;
     height: 60vh;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    background: hidden;
   }
   .right{
     margin-left: 51%;
