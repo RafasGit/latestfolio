@@ -294,9 +294,9 @@ export const Bio = {
         "TypeScript",
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/DecisionHub",
-      webapp: "https://decisionhub.netlify.app/",
-      article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      github: "https://github.com/RafasGit/fintter",
+      webapp: "https://fintter.vercel.app/",
+      article: "https://github.com/RafasGit/fintter/blob/main/README.md",
 
     },
     {
