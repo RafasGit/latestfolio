@@ -415,7 +415,7 @@ export const Bio = {
       image:
         "https://utfs.io/f/b9b7a83a-9c42-4f66-b85d-e9cb6282e88b-acsebm.png",
       tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-      category: "android app",
+      category: "servers&scripts",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
       article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
