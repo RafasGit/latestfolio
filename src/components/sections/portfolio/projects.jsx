@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { projects } from '../../../data/constants';
+import { blogs } from '../../../data/constants';
 import ProjectCard from '../../Card/ProjectCard';
 
 //import './myprojects.scss'
@@ -149,7 +150,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
       <h1>
                    <AnimatedLetters
                      letterClass={letterClass}
-                     strArray={['P','r','o','j','e', 'c ','t','s']}
+                     strArray={['P','r','o','j','e', 'c ','t','s','P','r','o','j','e', 'c ','t','s' ]}
                      idx={15}
                    />
                  </h1>
@@ -164,12 +165,17 @@ const Portfolio = ({ openModal, setOpenModal }) => {
           apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
-          <ToggleButton>
+        <ToggleButton
+            active={toggle === "all"}
+            onClick={() => setToggle("all")}
+          >
             Projects
           </ToggleButton>
           <Divider />
-
-          <ToggleButton>
+          <ToggleButton
+            active={toggle === "blogs"}
+            onClick={() => setToggle("blogs")}
+          >
             Blogs
           </ToggleButton>
         </ToggleButtonGroup>
@@ -223,6 +229,14 @@ const Portfolio = ({ openModal, setOpenModal }) => {
               {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
+              <ProjectCard
+                project={project}
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            ))}
+              {toggle === "blogs" &&
+            blogs.map((project) => (
               <ProjectCard
                 project={project}
                 openModal={openModal}
