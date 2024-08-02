@@ -408,12 +408,12 @@ export const Bio = {
     },
     {
       id: 3,
-      title: "Buckoid",
-      date: "Dec 2021 - Apr 2022",
+      title: "http server",
+      caption: "web server accepting and providing responses to various HTTP requests ",
       description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+        "accepting and providing responses to various HTTP requests",
       image:
-        "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+        "https://utfs.io/f/b9b7a83a-9c42-4f66-b85d-e9cb6282e88b-acsebm.png",
       tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
       category: "android app",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
