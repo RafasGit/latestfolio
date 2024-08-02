@@ -284,7 +284,7 @@ export const Bio = {
       description:
         "Streamline your financial transactions through income and expense analytics. Create multiple accounts, transactions and categories for various types of incomes and expenditures. CSV upload for transactions available.",
       image:
-        "https://github.com/RafasGit/fintter/blob/main/public/fintterhome.png",
+        "https://utfs.io/f/f866b021-17e1-40c8-aa76-a68cacdda4f7-29otpl.png",
       tags: [
         "NextJs",
         "PostgreSQL",
@@ -304,9 +304,9 @@ export const Bio = {
       title: "letslearn",
       caption: "LMS",
       description:
-        "Create, customize and sell your technical courses. Letslearn is a Conent Management System that allows you to create your educational courses and provide image, video and text resources. Process course payments using Stripe Checkout.",
+        "Create, customize and sell your technical courses. Letslearn is a Learning Management System that allows you to create your educational courses and provide image, video and text resources. Process course payments using Stripe Checkout.",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://utfs.io/f/eba70d5b-51db-42f2-a315-029d0c9f10c1-g0fj3f.png",
       tags: [
         "Docker",
         "AWS",
@@ -333,7 +333,7 @@ export const Bio = {
       description:
         "Live-streaming application with user-following, realtime chat, RTMP and WHIP protocols integrated. Accunt following other users and use realtime chat to communicate with users whil streaming",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+        "https://utfs.io/f/8f60790d-e1a4-458d-b930-259a2cf923a0-d9416e.png",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
       category: "web app",
       github: "https://github.com/rishavchanda/Podstream",
@@ -362,7 +362,7 @@ export const Bio = {
       description:
         "Provide technical service consultation by offering your services and providing an opportunity for users to schedule appointments.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+        "https://utfs.io/f/16f79b76-3ecd-470d-859a-160fe2a131f7-vfjuym.png",
       tags: [
         "React Js",
         "MongoDb",
@@ -384,7 +384,7 @@ export const Bio = {
       description:
       "Barbershop website that enables users to view the various services on offer as well schedule an appointment for a service of their choice and complete payment of booking fee.",
       image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        "https://utfs.io/f/2be72141-0aed-48bc-a122-0526481207a3-96sudk.png",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
       category: "machine learning",
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
