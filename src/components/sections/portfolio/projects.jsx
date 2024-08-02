@@ -195,12 +195,12 @@ const Portfolio = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            active={toggle === "servers&scripts"}
+            onClick={() => setToggle("servers&scripts")}
           >
             Application Servers & Scripts
           </ToggleButton>
-            <Divider />
+            
 
           </ToggleButtonGroup>
           <CardContainer>
