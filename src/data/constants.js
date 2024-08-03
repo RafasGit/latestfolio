@@ -351,17 +351,17 @@ export const Bio = {
       image:
         "https://utfs.io/f/16f79b76-3ecd-470d-859a-160fe2a131f7-vfjuym.png",
       tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-        "NodeMailer",
+        "NextJs",
+        "Descope",
+        "Graphql",
+        "Next-auth",
+        "Sonner",
+        "Apollo",
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
-      article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      github: "https://github.com/RafasGit/booknpay",
+      webapp: "https://booknpay.vercel.app/",
+      article: "https://github.com/RafasGit/booknpay/blob/main/README.md",
 
     },
     {
