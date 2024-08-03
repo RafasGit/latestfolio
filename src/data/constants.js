@@ -325,7 +325,7 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/RafasGit/letslearn",
       webapp: "https://letslearn-umber.vercel.app/",
-      article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      article: "https://github.com/RafasGit/letslearn/blob/main/README.md",
 
     },
     {
