@@ -294,6 +294,7 @@ export const Bio = {
         "Hono Js",
         "Zustand",
         "TypeScript",
+        "tRPC"
       ],
       category: "web app",
       github: "https://github.com/RafasGit/fintter",
@@ -310,17 +311,16 @@ export const Bio = {
       image:
         "https://utfs.io/f/eba70d5b-51db-42f2-a315-029d0c9f10c1-g0fj3f.png",
       tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
+        "Mux",
         "Eslint",
-        "Husky",
-        "CI/CD",
         "React Js",
-        "MongoDb",
+        "Neon",
         "Node Js",
-        "Express Js",
-        "Redux",
+        "Axios",
+        "Zustand",
+        "tRPC",
+        "Zod",
+        "Stripe"
       ],
       category: "web app",
       github: "https://github.com/rishavchanda/Trackify",
@@ -336,7 +336,7 @@ export const Bio = {
         "Live-streaming application with user-following, realtime chat, RTMP and WHIP protocols integrated. Accunt following other users and use realtime chat to communicate with users whil streaming",
       image:
         "https://utfs.io/f/8f60790d-e1a4-458d-b930-259a2cf923a0-d9416e.png",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      tags: ["NextJs", "Livekit", "Node Js", "jwt-decode", "TypeScript", "Tanstack", "Zustand"],
       category: "web app",
       github: "https://github.com/rishavchanda/Podstream",
       webapp: "https://podstream.netlify.app/",
