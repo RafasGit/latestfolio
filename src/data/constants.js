@@ -338,8 +338,9 @@ export const Bio = {
         "https://utfs.io/f/8f60790d-e1a4-458d-b930-259a2cf923a0-d9416e.png",
       tags: ["NextJs", "Livekit", "Node Js", "jwt-decode", "TypeScript", "Tanstack", "Zustand"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
+      github: "https://github.com/RafasGit/StreamIt",
+      webapp: "https://stream-it-lake.vercel.app/",
+      article: "https://github.com/RafasGit/StreamIt/blob/main/README.md"
   
     },
     {
@@ -374,7 +375,7 @@ export const Bio = {
         "https://utfs.io/f/91535c91-2723-42d2-90cf-f2891be72a2a-96sudk.png",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+      github: "https://github.com/RafasGit/mzitosupercuts",
       webapp: "https://brain-tumor.netlify.app/",
       article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
 
