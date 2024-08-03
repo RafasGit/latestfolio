@@ -235,19 +235,22 @@ const PortfolioDetails = ({ openModal, setOpenModal }) => {
               </Members>
             </>
           )}
-          
+
+          {project?.github && 
           <Button  href={project?.github} target="new">
               View Live App
             </Button>
-         
+          }
             
           <ButtonGroup>
-            <Button dull href={project?.github} target="new">
+           {project?.article && <Button dull href={project?.article} target="new">
               View Blog
             </Button>
-            <Button href={project?.webapp} target="new">
+           }
+          {project?.webapp &&  <Button href={project?.webapp} target="new">
               View Code
             </Button>
+          }
           </ButtonGroup>
         </Wrapper>
       </Container>

@@ -373,7 +373,7 @@ export const Bio = {
       image:
         "https://utfs.io/f/91535c91-2723-42d2-90cf-f2891be72a2a-96sudk.png",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
+      category: "web app",
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
       webapp: "https://brain-tumor.netlify.app/",
       article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
@@ -412,62 +412,71 @@ export const Bio = {
     
   export const blogs = [
     {
-      id: 3,
-      title: "buck",
-      date: "Dec 2021 - Apr 2022",
+      id: 7,
+      title: "Event-driven architecture",
+      date: "Feb 14 2023",
       description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+        "Event-driven architecture: navigating the single threaded nature of Node.js.",
       image:
-        "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+        "https://utfs.io/f/f20858ce-59e5-4b8d-9a6c-31ce90936509-20lc2.png",
+      tags: ["node", "threads", "software architecture"],
      // category: "android app",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    
       article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
 
     },
     {
       id: 10,
-      title: "Job Finding App",
-      date: "Jun 2023 - Jul 2023",
+      title: "Prototypal Inheritance ",
+      date: "Feb 29 2023",
       description:
-        "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+        "Prototypal inheritance; what really happens under the hood.",
       image:
-        "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-      tags: ["React Native", "JavaScript", "Axios"],
-      category: "android app",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
+        "https://utfs.io/f/ff47a8dd-daa9-4652-b78d-710f87ccd5f8-gcwuvx.png",
+      tags: ["oop", "JavaScript"],
+      //category: "",
       article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
 
     },
+   
     {
       id: 4,
-      title: "Whatsapp Clone",
-      date: "Jul 2021",
+      title: "Event Delegation",
+      date: "Feb 14 2023",
       description:
-        "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+        "Design patterns: Event delegation for cleaner, more concise code.",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-      tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-      webapp: "https://whatsapp-clone-rishav.web.app",
-      article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-
+        "https://utfs.io/f/8503ca4e-0168-403c-bdeb-0fd554d41fba-1lopzu.png",
+      tags: ["JavaScript", "design patterns"],
+      category: "",
+      article: ""
+     
     },
     {
       id: 5,
-      title: "Todo Web App",
-      date: "Jun 2021",
+      title: "'this' keyword ",
+      date: "Jul 2021",
       description:
-        " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+        "'this' and its ever changing context.",
       image:
-        "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-      tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
+        "https://utfs.io/f/3226548f-be96-40a3-9504-d8e2281b41fd-24a72.png",
+      tags: ["oop", "JavaScript", "Node JS"],
+      category: "",
+      article: "https://dev.to/joshraphael/this-and-its-ever-changing-context-2coe",
+
+    },
+    {
+      id: 6,
+      title: "'null', 'undefined' and 'undeclared' ",
+      date: "Mar 15 2023",
+      description:
+        "A case of no value vs no object: Comparing 'null', 'undefined' and 'undeclared'.",
+      image:
+        "https://utfs.io/f/4a252e99-2f9d-420f-8bf9-b9dfc24d617d-h62qwg.png",
+      tags: ["oop", "JavaScript", "Node JS"],
+      category: "",
+      article: "https://dev.to/joshraphael/a-case-of-no-value-vs-no-object-comparing-null-undefined-and-undeclared-419g",
+
     },
 
   ]

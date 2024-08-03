@@ -125,6 +125,7 @@ const CardContainer = styled.div`
 `;
 
 const Portfolio = ({ openModal, setOpenModal }) => {
+  const [works, setWorks] = useState("projects"); 
   const [toggle, setToggle] = useState("all"); 
   const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
@@ -166,19 +167,19 @@ const Portfolio = ({ openModal, setOpenModal }) => {
         </Desc>
         <ToggleButtonGroup>
         <ToggleButton
-            active={toggle === "all"}
-            onClick={() => setToggle("all")}
-          >
+            active={works === "projects"}
+            onClick={() => setWorks("projects")}>             
             Projects
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "blogs"}
-            onClick={() => setToggle("blogs")}
+            active={works === "blogs"}
+            onClick={() => setWorks("blogs")}
           >
             Blogs
           </ToggleButton>
         </ToggleButtonGroup>
+        {works ==="projects"  &&
         <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
@@ -201,8 +202,11 @@ const Portfolio = ({ openModal, setOpenModal }) => {
             Application Servers & Scripts
           </ToggleButton>
             
-
+        
           </ToggleButtonGroup>
+
+        }
+         {works === "projects" &&
           <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
@@ -221,15 +225,22 @@ const Portfolio = ({ openModal, setOpenModal }) => {
                 setOpenModal={setOpenModal}
               />
             ))}
-              {toggle === "blogs" &&
-            blogs.map((project) => (
+        
+       </CardContainer>
+}     
+           {works === "blogs" &&
+              <CardContainer>
+           {blogs.map((project) => (
               <ProjectCard
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
             ))}
-        </CardContainer>
+              </CardContainer>
+}
+         
+           
       </Wrapper>
     </Container>
     </section>
