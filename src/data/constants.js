@@ -323,8 +323,8 @@ export const Bio = {
         "Stripe"
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify-management.netlify.app/",
+      github: "https://github.com/RafasGit/letslearn",
+      webapp: "https://letslearn-umber.vercel.app/",
       article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
 
     },
