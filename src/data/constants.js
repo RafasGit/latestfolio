@@ -449,7 +449,7 @@ export const Bio = {
         "https://utfs.io/f/8503ca4e-0168-403c-bdeb-0fd554d41fba-1lopzu.png",
       tags: ["JavaScript", "design patterns"],
       category: "",
-      article: ""
+      article: "https://dev.to/joshraphael/design-patterns-event-delegation-for-cleaner-more-concise-code-4di0"
      
     },
     {
