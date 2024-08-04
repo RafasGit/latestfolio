@@ -146,6 +146,11 @@ const createItem = (
 
 const defaultState: tagSphereProps = {
   texts: [
+    <img
+    width={60}
+    src={'https://cdn.svgporn.com/logos/vercel.svg'}
+    alt={'Random image'}
+  />,
     'Hono',
     <img
       width={30}
@@ -158,7 +163,7 @@ const defaultState: tagSphereProps = {
     src={'https://cdn.svgporn.com/logos/bun.svg'}
     alt={'Random image'}
   />,
-    'JavaScript',
+   
     <img
       width={50}
       src={'https://cdn.svgporn.com/logos/javascript.svg'}
@@ -182,7 +187,6 @@ const defaultState: tagSphereProps = {
       src={'https://cdn.svgporn.com/logos/graphql.svg'}
       alt={'Random image'}
     />,
-    'you',
 
     <img
       width={100}
