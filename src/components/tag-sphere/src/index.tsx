@@ -148,39 +148,51 @@ const defaultState: tagSphereProps = {
   texts: [
     'Hono',
     <img
-      width={50}
+      width={30}
       src={'https://cdn.svgporn.com/logos/hono.svg'}
       alt={'Random image'}
     />,
+    'bun',
+    <img
+    width={30}
+    src={'https://cdn.svgporn.com/logos/bun.svg'}
+    alt={'Random image'}
+  />,
     'JavaScript',
     <img
       width={50}
       src={'https://cdn.svgporn.com/logos/javascript.svg'}
       alt={'Random image'}
     />,
+    'zod',
     <img
     width={50}
-    src={"https://utfs.io/f/19564cda-44df-4d76-90b7-9aa00056fdf0-133hbv.png"}
+    src={"https://cdn.svgporn.com/logos/git.svg"}
     alt={'Random image'}
   />,
-    'TagSphere.',
+    'Zustand.',
     <img
       width={50}
       src={'https://cdn.svgporn.com/logos/react.svg'}
       alt={'Random image'}
     />,
-    'Do',
-    'you',
-    'like',
+    'Drizzle',
     <img
       width={50}
-      src={'https://cdn.svgporn.com/logos/react.svg'}
+      src={'https://cdn.svgporn.com/logos/graphql.svg'}
+      alt={'Random image'}
+    />,
+    'you',
+
+    <img
+      width={100}
+      src={'https://cdn.svgporn.com/logos/neon.svg'}
       alt={'Random image'}
     />,
     'it?',
     <img
       width={50}
-      src={'https://cdn.svgporn.com/logos/typescript-icon.svg'}
+      src={'https://cdn.svgporn.com/logos/postgresql.svg'}
       alt={'Random image'}
     />,
     'TypeScript',
@@ -192,11 +204,26 @@ const defaultState: tagSphereProps = {
     'nextjs',
     <img
     width={50}
-    src={'https://cdn.svgporn.com/logos/typescript-icon.svg'}
+    src={'https://cdn.svgporn.com/logos/nextjs-icon.svg'}
     alt={'Random image'}
   />,
-    'see',
-    'you',
+    'redis',
+    <img
+    width={50}
+    src={'https://cdn.svgporn.com/logos/python.svg'}
+    alt={'Random image'}
+  />,
+    '',
+    <img
+    width={100}
+    src={'https://cdn.svgporn.com/logos/supabase.svg'}
+    alt={'Random image'}
+  />,
+  <img
+  width={50}
+  src={'https://cdn.svgporn.com/logos/prisma.svg'}
+  alt={'Random image'}
+/>,
   ],
   maxSpeed: 7,
   initialSpeed: 32,
