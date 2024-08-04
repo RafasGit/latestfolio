@@ -78,7 +78,7 @@ const HeroInnerContainer = styled.div`
   align-items: center;
   width: 100%;
   max-width: 1400px;
-  border : solid pink;
+ // border : solid pink;
   @media (max-width: 960px) {
     flex-direction: column;
   }
