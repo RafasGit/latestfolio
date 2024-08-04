@@ -327,7 +327,7 @@ const Hero = () => {
         
  <>
  <div id="Home">
-  my name
+  {/* my name */}
  </div>
   <HeroContainer>
     {/* <HeroBg>
