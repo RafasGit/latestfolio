@@ -313,7 +313,7 @@ export const Bio = {
       tags: [
         "Mux",
         "Eslint",
-        "React Js",
+        "NextJs",
         "Neon",
         "Node Js",
         "Axios",

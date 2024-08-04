@@ -151,7 +151,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
       <h1>
                    <AnimatedLetters
                      letterClass={letterClass}
-                     strArray={['P','r','o','j','e', 'c ','t','s','P','r','o','j','e', 'c ','t','s' ]}
+                     strArray={['P','r','o','j','e', 'c ','t','s','','&','','b','l','o','g','s' ]}
                      idx={15}
                    />
                  </h1>
