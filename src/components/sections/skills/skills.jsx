@@ -290,7 +290,7 @@ const Skills = () => {
     // //   </div>
     //   </div>
     //    </div>
-    <div data-aos="fade-up"
+    <div id="About" data-aos="fade-up"
     data-aos-duration="1000" className="containir"  
      >
       
@@ -326,7 +326,7 @@ const Skills = () => {
     
       <div   className="right">
   
-  Right Content
+ 
   <div className="flex-containr">
   <div className="tagcloud" >
     <TagSphere 

@@ -135,7 +135,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
     }, [])
 
   return (
-    <div data-aos="fade-up"
+    <div id='Projects' data-aos="fade-up"
     data-aos-duration="2000">
        <section className='portfolio section' id='portfolio'>
     <Container>
@@ -148,7 +148,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
                    /> */}
                  </h1>
       <Title>
-      <h1>
+      <h1 id='#Projects'>
                    <AnimatedLetters
                      letterClass={letterClass}
                      strArray={['P','r','o','j','e', 'c ','t','s','','&','','b','l','o','g','s' ]}
@@ -162,8 +162,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects and articles. Here are a few of them.
         </Desc>
         <ToggleButtonGroup>
         <ToggleButton

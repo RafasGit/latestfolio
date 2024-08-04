@@ -154,63 +154,68 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
   return (
-    <Nav>
-      <NavbarContainer>
-        <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Joshua
-          <div style={{ color: theme.white }}>/</div>Ng&apos;ang&apos;a
-          <ColorText>&gt;</ColorText>
-        </NavLogo>
+  <>
+  <Nav>
+   
+    <NavbarContainer>
+      <NavLogo to="/">
+        <ColorText>&lt;</ColorText>Joshua
+        <div style={{ color: theme.white }}>/</div>Ng&apos;ang&apos;a
+        <ColorText>&gt;</ColorText>
+      </NavLogo>
 
-        <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-          <MenuRounded style={{ fontSize: '32px',  color: "inherit", }} />
-        </MobileIcon>
+      <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+        <MenuRounded style={{ fontSize: '32px',  color: "inherit", }} />
+      </MobileIcon>
 
-        <NavItems>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
-        </NavItems>
+      <NavItems>
+      <NavLink href="#Home">Home</NavLink>
+        <NavLink href="#About">About</NavLink>
+        <NavLink href="#Skills">Skills</NavLink>
+        <NavLink href="#Experience">Experience</NavLink>
+        <NavLink href="#Projects">Projects</NavLink>
+        <NavLink href="#Contact">Contact</NavLink>
+      </NavItems>
 
-        {isOpen && (
-          <MobileMenu isOpen={isOpen}>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
-              About
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
-              Skills
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-              Projects
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
-            </NavLink>
-            <GithubButton
-              href={Bio.github}
-              target="_Blank"
-              style={{
-                background: theme.primary,
-                color: theme.text_primary,
-              }}
-            >
-              Github Profile
-            </GithubButton>
-          </MobileMenu>
-        )}
-
-        <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
+      {isOpen && (
+        <MobileMenu isOpen={isOpen}>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
+            About
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
+            Skills
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
+            Experience
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
+            Projects
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contact">
+            Contact
+          </NavLink>
+          <GithubButton
+            href={Bio.github}
+            target="_Blank"
+            style={{
+              background: theme.primary,
+              color: theme.text_primary,
+            }}
+          >
             Github Profile
           </GithubButton>
-        </ButtonContainer>
-      </NavbarContainer>
-    </Nav>
+        </MobileMenu>
+      )}
+
+      <ButtonContainer>
+        <GithubButton href={Bio.github} target="_Blank">
+          Github Profile
+        </GithubButton>
+      </ButtonContainer>
+    </NavbarContainer>
+  </Nav>
+  </> 
+  
   );
 };
 

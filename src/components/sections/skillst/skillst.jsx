@@ -146,7 +146,7 @@ const Skillst = () => {
         data-aos-duration="2000"
         className="contanr">
             <Title>
-        <h1>
+        <h1 id="Skills">
                    <AnimatedLetters
                      letterClass={letterClass}
                      strArray={['S','k','i','l','l', 's ']}

@@ -134,11 +134,12 @@ const Footer = () => {
       <FooterWrapper>
         <Logo>Joshua Ng&apos;ang&apos;a</Logo>
         <Nav>
+         <NavLink href="#Home">Home</NavLink>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.github} target="display">

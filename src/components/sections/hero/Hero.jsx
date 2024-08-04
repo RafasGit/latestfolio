@@ -325,11 +325,15 @@ const Hero = () => {
 
     return (
         
+ <>
+ <div id="Home">
+  my name
+ </div>
   <HeroContainer>
     {/* <HeroBg>
     </HeroBg>     */}
        <HeroInnerContainer>
-       <div className="text-zone">
+       <div  className="text-zone">
                 <h1 className="intro">
                   <div className="bend">
                   <span className={letterClass}>H</span>
@@ -434,6 +438,8 @@ const Hero = () => {
         {/* </motion.div>
        </HeroInnerContainer> */}
   </HeroContainer>
+ 
+ </>
     )
 }
 
