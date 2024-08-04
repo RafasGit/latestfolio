@@ -193,7 +193,7 @@ const defaultState: tagSphereProps = {
       src={'https://cdn.svgporn.com/logos/neon.svg'}
       alt={'Random image'}
     />,
-    'it?',
+    'tRPC',
     <img
       width={50}
       src={'https://cdn.svgporn.com/logos/postgresql.svg'}
@@ -217,7 +217,11 @@ const defaultState: tagSphereProps = {
     src={'https://cdn.svgporn.com/logos/python.svg'}
     alt={'Random image'}
   />,
-    '',
+  <img
+  width={40}
+  src={'https://cdn.svgporn.com/logos/redis.svg'}
+  alt={'Random image'}
+/>,
     <img
     width={100}
     src={'https://cdn.svgporn.com/logos/supabase.svg'}
