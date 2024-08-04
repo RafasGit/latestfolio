@@ -220,8 +220,13 @@ const defaultState: tagSphereProps = {
     alt={'Random image'}
   />,
   <img
-  width={50}
+  width={40}
   src={'https://cdn.svgporn.com/logos/prisma.svg'}
+  alt={'Random image'}
+/>,
+<img
+  width={40}
+  src={'https://cdn.svgporn.com/logos/tailwindcss-icon.svg'}
   alt={'Random image'}
 />,
   ],
