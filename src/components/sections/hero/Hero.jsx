@@ -396,12 +396,7 @@ const Hero = () => {
             <HeroRightContainer> 
           
             <div className="stage-cube-cont">
-             {/* <Starfield
-        starCount={3700}
-        starColor={[255, 255, 255, 1.8]}
-        speedFactor={0.03}
-        backgroundColor="#090917"
-      />  */}
+          
         <div id="stars"></div>
        <div id="stars2"></div>
        <div id="stars3"></div> 
