@@ -67,7 +67,7 @@ const HeroRightContainer = styled.div`
   order: 1;
   display: flex;
   justify-content: end;
-  border : solid red 10px;
+ // border : solid red 10px;
 
   @media (max-width: 960px) {
     order: 2;
