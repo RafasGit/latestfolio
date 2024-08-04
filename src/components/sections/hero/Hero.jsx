@@ -59,23 +59,7 @@ const HeroInnerContainer = styled.div`
   }
 `;
 
-const HeroLeftContainer = styled.div`
-  width: 100%;
-  order: 1;
-  height: 100%;
 
-  border : solid orange;
-
-  @media (max-width: 960px) {
-    order: 2;
-    margin-bottom: 30px;
-    display: flex;
-    gap: 6px;
-    flex-direction: column;
-    align-items: center;
-
-  }
-`;
 
 const HeroRightContainer = styled.div`
   width: 100%;
