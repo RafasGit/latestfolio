@@ -25,7 +25,7 @@ import {
   position: relative;
   padding: 80px 30px;
   z-index: 1;
-  border: solid red;
+//  border: solid red;
   height: 85vh;
   
   @media (max-width: 1260px) {
