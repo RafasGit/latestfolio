@@ -139,7 +139,7 @@ const Span = styled.div`
   margin-top: 3%;
   font-size: 50px;
   opacity: 0.4;
-  border: solid red;
+ // border: solid red;
 
  @media screen and (max-width: 1200px){
   //margin-left: 51px;
