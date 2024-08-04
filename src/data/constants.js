@@ -333,7 +333,7 @@ export const Bio = {
       title: "Streamit",
       caption: "Realtime Streaming Application",
       description:
-        "Live-streaming application with user-following, realtime chat, RTMP and WHIP protocols integrated. Accunt following other users and use realtime chat to communicate with users whil streaming",
+        "Live-streaming application with user-following, realtime chat, RTMP and WHIP protocols integrated. Accunt following other users and use realtime chat to communicate with users while streaming",
       image:
         "https://utfs.io/f/8f60790d-e1a4-458d-b930-259a2cf923a0-d9416e.png",
       tags: ["NextJs", "Livekit", "Node Js", "jwt-decode", "TypeScript", "Tanstack", "Zustand"],
@@ -373,12 +373,11 @@ export const Bio = {
       "Barbershop website that enables users to view the various services on offer as well schedule an appointment for a service of their choice and complete payment of booking fee.",
       image:
         "https://utfs.io/f/91535c91-2723-42d2-90cf-f2891be72a2a-96sudk.png",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      tags: [],
       category: "web app",
       github: "https://github.com/RafasGit/mzitosupercuts",
-      webapp: "https://brain-tumor.netlify.app/",
-      article: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-
+      webapp: "https://mzitosupercuts.site/",
+      //article: "" 
       // member: [
       //   {
       //     name: "",
@@ -402,7 +401,7 @@ export const Bio = {
         "accepting and providing responses to various HTTP requests",
       image:
         "https://utfs.io/f/b9b7a83a-9c42-4f66-b85d-e9cb6282e88b-acsebm.png",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+      tags: ["Python", "Web Sockets"],
       category: "servers&scripts",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",

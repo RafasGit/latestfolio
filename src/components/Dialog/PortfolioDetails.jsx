@@ -236,8 +236,8 @@ const PortfolioDetails = ({ openModal, setOpenModal }) => {
             </>
           )}
 
-          {project?.github && 
-          <Button  href={project?.github} target="new">
+          {project?.webapp && 
+          <Button  href={project?.webapp} target="new">
               View Live App
             </Button>
           }
@@ -247,7 +247,7 @@ const PortfolioDetails = ({ openModal, setOpenModal }) => {
               View Blog
             </Button>
            }
-          {project?.webapp &&  <Button href={project?.webapp} target="new">
+          {project?.github &&  <Button href={project?.github} target="new">
               View Code
             </Button>
           }
