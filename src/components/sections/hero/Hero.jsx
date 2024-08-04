@@ -85,22 +85,7 @@ const HeroRightContainer = styled.div`
   }
 `;
 
-const Title = styled.div`
-  font-weight: 700;
-  font-size: 50px;
-  color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
 
-  @media (max-width: 960px) {
-    text-align: center;
-  }
-
-  @media (max-width: 960px) {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 8px;
-  }
-`;
 
 const TextLoop = styled.div`
   font-weight: 600;
