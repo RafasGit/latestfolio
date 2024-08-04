@@ -118,7 +118,7 @@ const createItem = (
     zIndex: index + 1,
     filter: 'alpha(opacity=0)',
     opacity: 0,
-    fontSize: window.innerWidth > 600 ? '34px': '20px',
+    fontSize: window.innerWidth > 600 ? '20px': '20px',
     fontWeight: '400',
     color: '#ffff',
     WebkitTransformOrigin: transformOrigin,
@@ -146,18 +146,23 @@ const createItem = (
 
 const defaultState: tagSphereProps = {
   texts: [
-    'This',
+    'Hono',
     <img
       width={50}
-      src={'https://cdn.svgporn.com/logos/react.svg'}
+      src={'https://cdn.svgporn.com/logos/hono.svg'}
       alt={'Random image'}
     />,
-    'is',
+    'JavaScript',
     <img
       width={50}
-      src={'https://cdn.svgporn.com/logos/react.svg'}
+      src={'https://cdn.svgporn.com/logos/javascript.svg'}
       alt={'Random image'}
     />,
+    <img
+    width={50}
+    src={"https://utfs.io/f/19564cda-44df-4d76-90b7-9aa00056fdf0-133hbv.png"}
+    alt={'Random image'}
+  />,
     'TagSphere.',
     <img
       width={50}
@@ -173,8 +178,23 @@ const defaultState: tagSphereProps = {
       alt={'Random image'}
     />,
     'it?',
-    'Glad',
-    'to',
+    <img
+      width={50}
+      src={'https://cdn.svgporn.com/logos/typescript-icon.svg'}
+      alt={'Random image'}
+    />,
+    'TypeScript',
+    <img
+    width={50}
+    src={'https://cdn.svgporn.com/logos/typescript-icon.svg'}
+    alt={'Random image'}
+  />,
+    'nextjs',
+    <img
+    width={50}
+    src={'https://cdn.svgporn.com/logos/typescript-icon.svg'}
+    alt={'Random image'}
+  />,
     'see',
     'you',
   ],
@@ -210,7 +230,7 @@ export default function TagSphere(props: any) {
   
      
   const depth = 2 * radius;
-  const size = 2.75 * radius;
+  const size = 2.65 * radius;
   const itemHooks = texts.map(() => createRef());
   const [items, setItems]: [any[], any] = useState([]);
 
