@@ -13,7 +13,7 @@ export const Bio = {
       "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/joshua-ng-ang-a-13158120a",
     twitter: "https://x.com/rafa_codes22",
-    insta: "https://www.instagram.com/rishav_chanda/",
+    insta: "https://www.instagram.com/_rafaeljae",
   
   };
 
