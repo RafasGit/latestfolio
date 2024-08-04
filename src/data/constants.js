@@ -1,5 +1,5 @@
 export const Bio = {
-    name: "Rishav Chanda",
+    name: "Joshua Ng'apos;ang'&apos;a",
     roles: [
       "...Full Stack Developer",
       "...Android Developer",
@@ -488,7 +488,7 @@ export const Bio = {
       role: "Software Engineer Intern",
       company: "100Devs.",
       date: "June 2023 - Dec 2023",
-      desc: "Contributed in the building of team projects, development of full stack applications while implementing best practices and design patterns such as Model-View-Controller (MVC). Designing of Apis using Node Js connected with MongoDb. Took part in mentorship sessions and Open Source projects which which included Binary Upload Boom, the 100Devs social media network. ",
+      desc: "Contributed in the building of team projects, development of full stack applications while implementing best practices and design patterns such as Model-View-Controller (MVC). Designing of Apis in Node Js connected with MongoDb. Took part in mentorship sessions and Open Source projects which included Binary Upload Boom, the 100Devs social media network. ",
       skills: [
         "ReactJs",
         "NodeJs",
