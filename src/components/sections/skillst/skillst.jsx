@@ -48,7 +48,7 @@ const SkillsContainer = styled.div`
 @media (max-width: 500px) {
  margin-left: 1px;
   width: 100%;
-  border: solid pink;
+ // border: solid pink;
 }  
 
 `;
