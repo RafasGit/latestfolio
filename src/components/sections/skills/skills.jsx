@@ -69,9 +69,7 @@ const Skills = () => {
      
 
       />
-    {/* <div className="tagcloud" data-aos="zoom-in-up" data-aos-offset="200"> */}
- 
-{/* </div> */}
+   
 </div>
   </div>
  
