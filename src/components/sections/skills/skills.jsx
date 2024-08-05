@@ -14,18 +14,6 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 
-
-
-
-
-
-
-const SkillImage = styled.img`
-  width: 20px;
-  height: 20px;
-`;
-
-
 const Skills = () => {
     // Animation settings for Text Cloud
   
