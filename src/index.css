@@ -52,5 +52,5 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: yellow;
+  background: black;
 }
