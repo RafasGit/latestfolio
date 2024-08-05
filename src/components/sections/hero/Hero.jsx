@@ -268,12 +268,15 @@ const Hero = () => {
                     />
                   </Span>
                 </TextLoop>
-                <Link to="/contact" className="flat-button">
+                <a href="#Contact" className="flat-button">
+                   
             CONTACT ME
-          </Link> 
-          <Link to="/contact" className="flet-button">
-            VIEW RESUME
-          </Link> 
+            </a>
+        
+            <a href="#Contact" className="flet-button">
+                   
+                   VIEW RESUME
+                   </a>
                 </div>
    
             <HeroRightContainer> 
