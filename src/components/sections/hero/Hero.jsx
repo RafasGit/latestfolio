@@ -169,23 +169,7 @@ const Span = styled.div`
 
 `;
 
-const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
 
-  @media (max-width: 960px) {
-    text-align: center;
-  }
-
-  @media (max-width: 960px) {
-    font-size: 16px;
-    line-height: 32px;
-  }
-
- 
-`;
 
 
 
@@ -231,8 +215,7 @@ const Hero = () => {
   {/* my name */}
  </div>
   <HeroContainer>
-    {/* <HeroBg>
-    </HeroBg>     */}
+   
        <HeroInnerContainer>
        <div  className="text-zone">
                 <h1 className="intro">
