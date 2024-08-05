@@ -19,21 +19,6 @@ AOS.init();
 
 
 
-const SkillTitle = styled.div`
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-align: center;
-  color: ${({ theme }) => theme.text_secondary};
-`;
-
-const SkillList = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 20px;
-`;
 const SkillItem = styled.div`
   font-size: 13px;
   font-weight: 400;
