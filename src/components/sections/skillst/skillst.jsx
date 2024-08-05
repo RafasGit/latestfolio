@@ -16,7 +16,7 @@ const Title = styled.div`
   font-size: 52px;
   text-align: center;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 10px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -41,7 +41,7 @@ const SkillsContainer = styled.div`
   margin-left: 147px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 8rem;
+  margin-top: 6rem;
   gap: 10px;
   justify-content: center;
 
