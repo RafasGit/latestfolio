@@ -314,7 +314,7 @@
     width: 76%;
     left: 12%;
    top: 56em;
-   border: solid red;
+  // border: solid red;
   }
   
     .info-map {
@@ -325,45 +325,10 @@
     .text-zane {
       width: 40%;
       margin-left: -14%;
-     // font-size: 68px;
-     margin-top: 77.5%;
+      margin-top: 77.5%;
     }
 
-    // .head {
-    //   width: 120%;
-    //   font-family: 'Coolvetica';
-    //   font-size: 53px;
-    //   font-weight: 400;
-    //   padding-top: 370px;
-    //   left: -28%;
-    //   margin-left: 10%;
-    
-    //   &:before {
-    //     content: '<h1>';
-    //     font-family: 'La Belle Aurore', cursive;
-    //     color: #ffd700;
-    //     font-size: 18px;
-    //     position: absolute;
-    //     margin-top: -10px;
-    //     left: 13%;
-    //     opacity: 0.6;
-    //     line-height: 18px;
-    //   }
   
-    //   &:after {
-    //     content: '<h1/>';
-    //     font-family: 'La Belle Aurore', cursive;
-    //     color: #ffd700;
-    //     font-size: 18px;
-    //     line-height: 18px;
-    //     position: absolute;
-    //     left: 16%;
-    //     bottom: -20px;
-    //     margin-left: 20px;
-    //     opacity: 0.6;
-    //   }
-
-    // }
   }
     @media screen and (max-width: 968px) {
     .text-zane{
