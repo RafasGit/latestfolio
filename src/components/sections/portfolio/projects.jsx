@@ -17,7 +17,7 @@ import './projects.scss'
 
 
 const Container = styled.div`
-margin-top: 9px;
+margin-top: 46px;
 display: flex;
 flex-direction: column;
 justify-content-center;
