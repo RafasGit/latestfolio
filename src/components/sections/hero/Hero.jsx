@@ -121,13 +121,13 @@ const TextLoop = styled.div`
 
    @media (max-width: 468px) {
     text-align: center;
-    margin-left: 0.8rem;
-  }
+    margin-left: 2.4rem;
+       }
 
    @media (max-width: 368px) {
     text-align: center;
     margin-left: -0.41rem;
-    font-size: 15px;
+    font-size: 25px;
     
   }
 `;
@@ -158,6 +158,7 @@ const Span = styled.div`
 
  @media (max-width: 398px) {
       margin-left: -4.5rem;
+       font-size: 32px;
     //line-height: 36px;
   }
 
