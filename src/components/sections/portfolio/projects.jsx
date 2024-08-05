@@ -25,11 +25,7 @@ position: relative;
 z-index: 1;
 padding: 0 16px;
 align-items: center;
-border: solid red;
-
-// @media (max-width: 768px) {
-//  margin-top: 6p
-// }
+//border: solid red;
 `;
 
 
