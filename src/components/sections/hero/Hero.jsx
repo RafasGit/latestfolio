@@ -14,6 +14,7 @@ import {
     faGitAlt,
     faHtml5,
     faJsSquare,
+    faNode,
     faReact,
   } from '@fortawesome/free-brands-svg-icons'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -96,6 +97,7 @@ const TextLoop = styled.div`
   line-height: 68px;
   //border: solid red;
   width: 810px;
+  margin-left: 2.5%;
  
   @media (max-width: 1400px){
    margin-left: -14.5%;
@@ -119,7 +121,7 @@ const TextLoop = styled.div`
 
    @media (max-width: 468px) {
     text-align: center;
-    margin-left: 0.5rem;
+    margin-left: 0.8rem;
   }
 
    @media (max-width: 368px) {
@@ -203,12 +205,13 @@ const Hero = () => {
     'r',
     'e',
     '',
-    'E',
-    'n',
-    'g',
-    'i',
-    'n',
+    'D',
     'e',
+    'v',
+    'e',
+    'l',
+    'o',
+    'p',
     'e',
     'r',
     '.',
@@ -302,7 +305,7 @@ const Hero = () => {
             <div className="cubespinner">
             
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faNode} color="#097969" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
