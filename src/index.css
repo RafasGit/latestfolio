@@ -46,11 +46,11 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-   background: black; 
+   background: red; 
   border-radius: 6px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black;
+  background: yellow;
 }
