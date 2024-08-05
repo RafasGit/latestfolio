@@ -19,27 +19,6 @@ AOS.init();
 
 
 
-const SkillItem = styled.div`
-  font-size: 13px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
-  border-radius: 12px;
-  padding: 10px 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
-  @media (max-width: 768px) {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
-  @media (max-width: 500px) {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-`;
 
 const SkillImage = styled.img`
   width: 20px;
