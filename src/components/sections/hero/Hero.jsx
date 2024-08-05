@@ -291,9 +291,7 @@ const Hero = () => {
             VIEW RESUME
           </Link> 
                 </div>
-       {/* <HeroLeftContainer>
-            
-            </HeroLeftContainer> */}
+   
             <HeroRightContainer> 
           
             <div className="stage-cube-cont">
