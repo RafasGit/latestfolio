@@ -16,15 +16,7 @@ AOS.init();
 
 
 
-const SkillsContainer = styled.div`
-  width: 100%;
-  margin-left: 37px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 22rem;
-  gap: 50px;
-  justify-content: center;
-`;
+
 const Skill = styled.div`
   width: 70%;
   max-width: 500px;
