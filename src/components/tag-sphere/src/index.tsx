@@ -239,7 +239,7 @@ const defaultState: tagSphereProps = {
 />,
   ],
   maxSpeed: 7,
-  initialSpeed: 32,
+  initialSpeed: 12,
   initialDirection: 135,
   keepRollingAfterMouseOut: true,
   useContainerInlineStyles: true,
@@ -270,7 +270,7 @@ export default function TagSphere(props: any) {
   
      
   const depth = 2 * radius;
-  const size = 3.1 * radius;
+  const size = window.innerWidth <= 925 ? 3.1 * radius : 2.75 * radius;
   const itemHooks = texts.map(() => createRef());
   const [items, setItems]: [any[], any] = useState([]);
 
