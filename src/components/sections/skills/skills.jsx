@@ -17,26 +17,7 @@ AOS.init();
 
 
 
-const Skill = styled.div`
-  width: 70%;
-  max-width: 500px;
-  //background-color: rgba(17, 25, 40, 0.83);
-  border: 1px solid rgba(255, 255, 255, 0.46);
-  box-shadow: rgba(23, 92, 230, 0.35) 0px 4px 24px;
-  border-radius: 16px;
-  padding: 0px 30px;
-  margin-bottom: 20px;
 
-  @media (max-width: 768px) {
-    max-width: 400px;
-    padding: 10px 36px;
-  }
-
-  @media (max-width: 500px) {
-    max-width: 330px;
-    padding: 10px 36px;
-  }
-`;
 
 const SkillTitle = styled.div`
   font-size: 28px;
