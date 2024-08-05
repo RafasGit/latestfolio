@@ -287,7 +287,7 @@ const Hero = () => {
             <div className="cubespinner">
             
             <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#00FFFF" />
+              <FontAwesomeIcon icon={faNode} color="#7FFFD4" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
