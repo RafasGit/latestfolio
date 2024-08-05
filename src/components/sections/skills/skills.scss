@@ -1,15 +1,4 @@
    
-// .experience-page {
- 
-//     height: 100vh;
-//     margin-top: 180rem;
-//     position: relative;
-// }
-
-.containir {
-  height: 30vh;
- // border: solid brown 10px;
-}
 
 .text-zne {
  // border: solid purple;
@@ -56,7 +45,7 @@
   position: relative;
   flex-direction: column;
   left: 4%;
-  border: solid pink;
+ // border: solid pink;
   margin-top: -10px;
   //margin-left: 24px;
   color: #ffffff;
@@ -83,7 +72,7 @@ p {
     padding: 20px; /* Just for demonstration */
     box-sizing: border-box; /* Includes padding in the total width */
     width: 50%;
-    border: solid red;
+//    border: solid red;
     //height: 140vh;
    
   }
@@ -95,7 +84,6 @@ p {
   @media (max-width: 1200px) {
    .containir{
     height: 170vh;
-    //width:
    //margin-left: -4em;
 
    }
@@ -110,10 +98,10 @@ p {
    .containir {
     display:flex;
     margin-top: 30rem;
-      overflow: scroll;
-        flex-direction: column-reverse; /* Stacks the divs vertically, with the right one on top */
-        height: 185vh;
-      border: solid pink 10px;
+    overflow: scroll;
+    flex-direction: column-reverse; /* Stacks the divs vertically, with the right one on top */
+    height: 185vh;
+   //border: solid pink 10px;
     }
     .left{
      // order: 1;
@@ -143,11 +131,8 @@ p {
   display: inline-block;
   font-weight: 600;
   letter-spacing: 0.0725em;
-  // font-family: 'RedWingBold';
-  //font-size: 1.3em;
-  // font-family: 'Coolvetica';
-   font-size: 2em;
-  // border: solid pink 10px;
+  font-size: 2em;
+   border: solid pink 10px;
 }
 
 .tagd {
@@ -392,8 +377,7 @@ p {
     font-size: 15px;
     width: 100%;
    margin-bottom: 12px;
-   // border: solid red;
-  }
+     }
    
 }
 
@@ -472,7 +456,7 @@ p {
     margin-left: 51%;
     width: 50%;
     margin-top: 4rem;
-    border: solid pink;
+  //  border: solid pink;
     height: 60vh;
     
 
@@ -490,7 +474,7 @@ p {
   
   }
   .text-zne {
-    left: -4.2%;
+    left: -2.2%;
     top: 9.5%;
     width: 50%;
     
@@ -506,7 +490,6 @@ p {
   p  {
     font-size: 16px;
     margin-bottom: 13px;
-   // border: solid red;
   }
 }
 
