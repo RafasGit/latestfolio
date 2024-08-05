@@ -94,7 +94,6 @@
       li {
         padding: 0;
         margin: 0;
-      //  width: 40%;
         list-style: none;
         margin-bottom: 8px;
       opacity: 0;
@@ -179,7 +178,7 @@
     opacity: 0;
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
-    border: solid pink;
+ //   border: solid pink;
     left: 0%;
   }
   
@@ -198,7 +197,7 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
-    border: solid brown 10px;
+   // border: solid brown 10px;
   
     span {
       font-size: 16px;
@@ -223,9 +222,6 @@
       margin-left: -11.5%;
     }
     
-    // .info-map {
-    //   display: none;
-    // }
 
     .head {
       width: 120%;
@@ -290,7 +286,7 @@
 }
 @media screen and (max-width: 1068px) {
   .containor {
-    border: solid red;
+  //  border: solid red;
     height: 100vh;
   }
 
