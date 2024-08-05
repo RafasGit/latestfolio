@@ -46,7 +46,7 @@ const SkillsContainer = styled.div`
   justify-content: center;
 
 @media (max-width: 500px) {
- margin-left: 1px;
+ margin-left: 15px;
   width: 100%;
  // border: solid pink;
 }  
