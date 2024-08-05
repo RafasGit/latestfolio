@@ -53,7 +53,7 @@
 
 .paras {
   display: flex;
- position: relative;
+  position: relative;
   flex-direction: column;
   left: 4%;
   border: solid pink;
@@ -71,38 +71,6 @@ p {
 }
 
 
-#skills {
-  margin-left: 23%;
-  margin-top: -25%;
-  //border: solid red;
-  width: 250px;
-  font-size: 63px;
-
-  &:before {
-    content: '<h1>';
-    font-family: 'La Belle Aurore', cursive;
-    color: #ffd700;
-    font-size: 18px;
-    position: absolute;
-    margin-top: -10px;
-    left: 2%;
-    opacity: 0.6;
-    line-height: 18px;
-  }
-
-  &:after {
-    content: '<h1/>';
-    font-family: 'La Belle Aurore', cursive;
-    color: #ffd700;
-    font-size: 18px;
-    line-height: 18px;
-    position: absolute;
-    left: 60%;
-    bottom: -20px;
-    margin-left: 20px;
-    opacity: 0.6;
-  }
-}
 
 
 .skill {
