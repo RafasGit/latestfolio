@@ -140,13 +140,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
        <section className='portfolio section' id='portfolio'>
     <Container>
       <Wrapper>
-      <h1>
-                   {/* <AnimatedLetters
-                     letterClass={letterClass}
-                     strArray={['C','o','n','t','a', 'c ','t','', 'm','e']}
-                     idx={15}
-                   /> */}
-                 </h1>
+    
       <Title>
       <h1 id='#Projects'>
                    <AnimatedLetters
