@@ -132,8 +132,7 @@ const SkillImage = styled.img`
 
 
 const Skillst = () => {
-    // Animation settings for Text Cloud
-  
+ 
     const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
        setTimeout(() => {
