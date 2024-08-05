@@ -270,7 +270,7 @@ export default function TagSphere(props: any) {
   
      
   const depth = 2 * radius;
-  const size = 2.65 * radius;
+  const size = 3.1 * radius;
   const itemHooks = texts.map(() => createRef());
   const [items, setItems]: [any[], any] = useState([]);
 
