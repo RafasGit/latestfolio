@@ -15,8 +15,7 @@ AOS.init();
 
 
 const Skills = () => {
-    // Animation settings for Text Cloud
-  
+   
     const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
        setTimeout(() => {
