@@ -333,7 +333,7 @@ export const Bio = {
       title: "Streamit",
       caption: "Realtime Streaming Application",
       description:
-        "Live-streaming application with user-following, realtime chat, RTMP and WHIP protocols integrated. Accunt following other users and use realtime chat to communicate with users while streaming",
+        "Live-streaming application with user-following and blocking features, realtime chat, RTMP and WHIP protocols integrated. Share live video feeds, chat in real-time to communicate with users while streaming.",
       image:
         "https://utfs.io/f/8f60790d-e1a4-458d-b930-259a2cf923a0-d9416e.png",
       tags: ["NextJs", "Livekit", "Node Js", "jwt-decode", "TypeScript", "Tanstack", "Zustand"],
