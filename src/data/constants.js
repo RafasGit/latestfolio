@@ -396,9 +396,9 @@ export const Bio = {
     {
       id: 3,
       title: "http server",
-      caption: "web server accepting and providing responses to various HTTP requests ",
+      caption: "web server ",
       description:
-        "accepting and providing responses to various HTTP requests",
+        "Web server accepting and providing responses to various HTTP requests",
       image:
         "https://utfs.io/f/b9b7a83a-9c42-4f66-b85d-e9cb6282e88b-acsebm.png",
       tags: ["Python", "Web Sockets"],
