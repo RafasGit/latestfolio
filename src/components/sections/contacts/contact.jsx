@@ -66,7 +66,8 @@ const SocialMediaIcon = styled.a`
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
-    const position = [51.505, -0.09]
+    const position = [-1.2921
+      ,36.7838 ]
     const mapRef = useRef(null);
 
     useEffect(() => {
