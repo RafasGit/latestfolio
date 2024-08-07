@@ -52,13 +52,13 @@ const SkillsContainer = styled.div`
 }  
 
  @media (max-width: 390px) {
- margin-left: 11px;
+ margin-left: 9px;
   width: 100%;
  //border: solid pink;
 }  
 
  @media (max-width: 360px) {
- margin-left: 10px;
+ margin-left: 3px;
   width: 100%;
  //border: solid pink;
 }  
