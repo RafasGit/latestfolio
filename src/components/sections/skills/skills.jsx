@@ -39,9 +39,8 @@ const Skills = () => {
           </h1>
           <div className="paras">
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+           I am a software engineer with three years experience in the development of fullstack applications, primarily in TypeScript, Tanstack and NextJs.
+           I was priviledged with the opportunity to begin my career in tech by interning at the  developer training agency <a href="" >100Devs </a>;        
           </p>
         
           <p>
