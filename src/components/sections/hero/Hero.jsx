@@ -126,7 +126,7 @@ const TextLoop = styled.div`
 
    @media (max-width: 368px) {
     text-align: center;
-    margin-left: -0.41rem;
+    margin-left: 3.41rem;
     font-size: 25px;
     
   }
