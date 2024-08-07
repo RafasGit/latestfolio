@@ -46,10 +46,23 @@ const SkillsContainer = styled.div`
   justify-content: center;
 
 @media (max-width: 500px) {
- margin-left: 12px;
+ margin-left: 11px;
   width: 100%;
  //border: solid pink;
 }  
+
+ @media (max-width: 390px) {
+ margin-left: 11px;
+  width: 100%;
+ //border: solid pink;
+}  
+
+ @media (max-width: 360px) {
+ margin-left: 10px;
+  width: 100%;
+ //border: solid pink;
+}  
+
 
 `;
 const Skill = styled.div`

@@ -506,12 +506,13 @@ p {
   }
 }
 
-@media (min-width: 968px) and (max-width: 1024px) {
+@media (min-width: 968px) and (max-width: 1025px) {
 
   .containir {
     height:50vh;
     overflow: visible;
     margin-bottom: 30%;
+    
   }
   .right{
     margin-left: 51%;
@@ -550,7 +551,7 @@ p {
 }
 
 /* Style for large devices */
-@media (min-width: 1025px) {
+@media (min-width: 1026px) {
   .skills-container > * {
     flex-basis: calc(50.333% - 65px); /* Assuming three columns, adjust as needed */
   }
