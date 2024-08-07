@@ -165,7 +165,7 @@ Joshua Ng'ang'a          <br />
           <br />
          
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>f</span>
         </div> */}
         <div className="map-wrap">
         <div data-aos="zoom-in-left"
