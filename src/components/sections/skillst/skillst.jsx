@@ -38,7 +38,7 @@ const Desc = styled.div`
 
 const SkillsContainer = styled.div`
   width: 100%;
-  margin-left: 147px;
+  margin-left: 179px;
   display: flex;
   flex-wrap: wrap;
   margin-top: 6rem;
