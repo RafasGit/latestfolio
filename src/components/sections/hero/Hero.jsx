@@ -316,8 +316,7 @@ const Hero = () => {
               </motion.div> */}
             </HeroRightContainer>
           </HeroInnerContainer>
-        {/* </motion.div>
-       </HeroInnerContainer> */}
+      
   </HeroContainer>
  
  </>
