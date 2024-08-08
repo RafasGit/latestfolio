@@ -273,11 +273,12 @@ const Hero = () => {
             CONTACT ME
             </a>
         
-            <a href="#Contact" className="flet-button">
+            <a href={Bio.resume} target="display" className="flet-button">
                    
                    VIEW RESUME
                    </a>
                 </div>
+                
    
             <HeroRightContainer> 
           
