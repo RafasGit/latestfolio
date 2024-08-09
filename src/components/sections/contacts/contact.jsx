@@ -107,15 +107,11 @@ return(
           </h1>
           <div className='parec'>
           <p className='parac' >
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          I’m looking forward to creating meaningful relations and collaborating on projects addressing real world issues. 
+          However, if you have any other requests or
+          questions, don't hesitate to contact me using below form either. Let’s connect! 🌍
           </p>
-          <p className='parac' >
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
-          </p>
+        
           </div>
         
           <div className="contact-form">
