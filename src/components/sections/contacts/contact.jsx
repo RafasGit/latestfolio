@@ -90,7 +90,7 @@ const Contact = () => {
             alert('Failed to send the message, please try again')
           }
         )
-    }
+    } 
   
 return(
        
@@ -109,7 +109,7 @@ return(
           <p className='parac' >
           I’m looking forward to creating meaningful relations and collaborating on projects addressing real world issues. 
           However, if you have any other requests or
-          questions, don't hesitate to contact me using below form either. Let’s connect! 🌍
+          questions, don't hesitate to contact me using the form below. Let’s connect! 🌍
           </p>
         
           </div>
