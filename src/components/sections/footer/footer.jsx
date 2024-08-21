@@ -151,7 +151,7 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.linkedin} target="display" aria-label="linkedIn account">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
+          <SocialMediaIcon href={Bio.insta} target="display" aria-label="Insta account">
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
