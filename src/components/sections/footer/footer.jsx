@@ -142,7 +142,7 @@ const Footer = () => {
           <NavLink href="#Contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.github} target="display">
+          <SocialMediaIcon href={Bio.github} target="display" aria-label="Github account">
             <GitHubIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
