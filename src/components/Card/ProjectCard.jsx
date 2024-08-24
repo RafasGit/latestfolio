@@ -132,7 +132,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
         <Members>
           {project.member?.map((member) => (
             <Avatar src={member.img} />
-          ))} the quick brow
+          ))} the quick brown 
         </Members>
       </Card>
     );
