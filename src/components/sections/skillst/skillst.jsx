@@ -18,6 +18,7 @@ const Title = styled.div`
   text-align: center;
   font-weight: 800;
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left:0rem;
  // border: solid red 3px;
  // max-width: 500px;
@@ -75,7 +76,7 @@ const SkillsContainer = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust minmax values as needed */
   grid-gap: 20px; /* Space between grid items */
   justify-content: center;
- // margin-top: 6rem;
+  margin-top: 6rem;
   width: 95%; /* Ensure it takes full width */
   //border: solid red 3px;
   margin-left: 0%;

@@ -85,7 +85,7 @@ const TextLoop = styled.div`
   line-height: 68px;
   //border: solid red;
   width: 810px;
-  margin-left: 2.5;
+  margin-left: 1.5%;
  
   @media (max-width: 1400px){
    margin-left: 1.5%;
