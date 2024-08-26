@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', sans-serif; 
+  font: 400 11px/1.4 'Inter', sans-serif; 
    color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,7 +31,13 @@ body {
   display: block;
 }
 
-
+:root {
+  font-family: 'Inter Tight', sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -52,5 +58,5 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: yellow;
+  background: black;
 }

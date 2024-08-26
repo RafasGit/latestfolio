@@ -44,16 +44,30 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 52px;
+  font-size: 56px;
+  font-family:  'Inter Tight', sans-serif;
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
   margin-top: 20px;
+  margin-left:0rem;
+ // border: solid red 3px;
+ // max-width: 500px;
+ 
   color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
+  @media (max-width: 1368px) {
+  display: flex wrap;
     margin-top: 12px;
-    margin-left: 12px;
-    font-size: 32px;
+   // margin-left: 39rem;
+    
+    font-size: 56px;
   }
+    @media (max-width: 768px) {
+    margin-left: 0rem;
+}
+
+ @media (max-width: 368px) {
+    margin-left: -1rem;
+}
 `;
 
 const Desc = styled.div`
@@ -106,9 +120,10 @@ const CardContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 28px;
+  gap: 30px;
   flex-wrap: wrap;
   //border: solid red;
+  width: 86vw;
   height: fit-content;
  // z-index; 2;
   overflow: auto;
@@ -138,13 +153,13 @@ const Portfolio = ({ openModal, setOpenModal }) => {
       <Wrapper>
     
       <Title>
-      <h1 id='#Projects'>
+     
                    <AnimatedLetters
                      letterClass={letterClass}
-                     strArray={['P','r','o','j','e', 'c ','t','s','','&','','b','l','o','g','s' ]}
+                     strArray={['P','r','o','j','e', 'c ','t','s']}
                      idx={15}
                    />
-                 </h1>
+              
 
       </Title>
       <Desc
@@ -160,13 +175,7 @@ const Portfolio = ({ openModal, setOpenModal }) => {
             onClick={() => setWorks("projects")}>             
             Projects
           </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={works === "blogs"}
-            onClick={() => setWorks("blogs")}
-          >
-            Blogs
-          </ToggleButton>
+        
         </ToggleButtonGroup>
         {works ==="projects"  &&
         <ToggleButtonGroup>
@@ -217,17 +226,6 @@ const Portfolio = ({ openModal, setOpenModal }) => {
         
        </CardContainer>
 }     
-           {works === "blogs" &&
-              <CardContainer>
-           {blogs.map((project) => (
-              <ProjectCard
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
-              </CardContainer>
-}
          
            
       </Wrapper>

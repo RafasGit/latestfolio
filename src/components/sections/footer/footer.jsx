@@ -13,23 +13,24 @@ const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 2rem;
   z-index: 1;
    
  @media (max-width: 1300px){
-    margin-top: 86rem;
+    margin-top: 9rem;
   }
 
 
    @media (max-width: 1200px){
-    margin-top: 79rem;
+    margin-top: 9rem;
   }
 
    @media (max-width: 1068px){
-    margin-top: -10rem;
+    margin-top: 2rem;
   }
 
    @media (max-width: 968px){
-    margin-top: -6rem;
+    margin-top: 2rem;
   }
   
    @media (max-width: 868px){
@@ -51,6 +52,14 @@ const FooterContainer = styled.div`
    @media (max-width: 350px){
     margin-top: 20rem;
   }
+
+  @media (max-width: 912px) and (min-height: 1368px) {
+   margin-bottom: 0rem;
+  // position: absolute;
+ // border: #8b55e9 solid 4px;
+ 
+
+}
 `;
 
 const FooterWrapper = styled.div`
@@ -137,21 +146,22 @@ const Footer = () => {
          <NavLink href="#Home">Home</NavLink>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
+          <NavLink href="#Experience">Experience</NavLink>
+          <NavLink href="#Blogs">Articles</NavLink>
           <NavLink href="#Contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.github} target="display" aria-label="Github account">
+          <SocialMediaIcon href={Bio.github} target="display">
             <GitHubIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display" aria-label="Twitter account">
+          <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display" aria-label="linkedIn account">
+          <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display" aria-label="Insta account">
+          <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>

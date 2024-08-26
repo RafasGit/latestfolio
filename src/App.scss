@@ -47,6 +47,7 @@ $primary-color: #ffd700;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -70,6 +71,15 @@ $primary-color: #ffd700;
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter_Tight/static/InterTight-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}  
+
 
 input,
 textarea {

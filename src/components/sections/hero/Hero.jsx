@@ -5,20 +5,20 @@ import { useEffect, useState } from "react";
 import { Link } from 'react-scroll';
 import LogoTitle from "../../../assets/images/logo-s.png";
 import AnimatedLetters from "../../AnimatedLetters";
-//import Starfield from 'react-starfield';
-import Starfield from "../../stars/stars"; 
 import Typewriter from "typewriter-effect";
 import {
-    faAngular,
+    faGolang,
     faCss3,
     faGitAlt,
-    faHtml5,
+    
     faJsSquare,
     faNode,
     faReact,
+    faJava,
   } from '@fortawesome/free-brands-svg-icons'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import './Hero.scss'
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
   const HeroContainer = styled.div`
   display: flex;
@@ -27,66 +27,54 @@ import {
   padding: 80px 30px;
   z-index: 1;
 //  border: solid red;
-  height: 85vh;
+  height: 60vh;
   
   @media (max-width: 1260px) {
     
   height: 80vh;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   }
+
+  @media  (max-width: 1280px) and (min-width:1025px) and (max-height:854px) 
+    {
+    height:100vh;
+    margin-bottom: 20rem;
+   }
+
+  @media  (max-width: 1024px) and (min-width:1000px) and (max-height:600px) 
+    {
+    height:100vh;
+   }
+
+
 
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
 
   @media (max-width: 760px) {
-    padding: 120px 1px;
-    height: 70vh;
+    padding: 140px 1px;
+    height:100vh;
+   // border: solid green 2px;
   }
+
+
+  @media (max-width: 760px) and (max-height:300px){
+    padding: 140px 1px;
+    height:170vh;
+   // border: solid green 2px;
+  }
+  
+  @media (min-width: 667px) and (max-height: 550px) and (min-height: 343px) {
+   
+  //  border: green solid 2px;
+    height: 205vh;
+    margin-bottom: 0%:
+   
+}
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
-
-const HeroInnerContainer = styled.div`
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1400px;
- // border : solid pink;
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
-`;
-
-
-
-const HeroRightContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  order: 1;
-  display: flex;
-  justify-content: end;
- // border : solid red 10px;
-
-  @media (max-width: 960px) {
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-contents: center;
-    margin-bottom: 80px;
-    //margin-top: 80px;
-
-  }
-
-  @media (max-width: 640px) {
-    margin-bottom: 30px;
-  }
-`;
-
-
 
 const TextLoop = styled.div`
   font-weight: 600;
@@ -97,11 +85,18 @@ const TextLoop = styled.div`
   line-height: 68px;
   //border: solid red;
   width: 810px;
-  margin-left: 2.5%;
+  margin-left: 2.5;
  
   @media (max-width: 1400px){
-   margin-left: -14.5%;
+   margin-left: 1.5%;
   }
+
+   @media  (max-width: 1280px) and (min-width:1025px) and (max-height:800px) 
+    {
+   
+    margin-left: 1rem;
+   }
+
 
   @media (max-width: 1200px){
    margin-left: -1.5%;
@@ -115,18 +110,18 @@ const TextLoop = styled.div`
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
-     margin-left: -9%;
+     margin-left: 3%;
    // border: solid red;
   }
 
    @media (max-width: 468px) {
     text-align: center;
-    margin-left: 2.4rem;
+    margin-left: 6.5rem;
        }
 
    @media (max-width: 368px) {
     text-align: center;
-    margin-left: -0.41rem;
+    margin-left: 7.41rem;
     font-size: 25px;
     
   }
@@ -137,8 +132,8 @@ const TextLoop = styled.div`
 const Span = styled.div`
   cursor: pointer;
   color: rgb(72, 61, 139);
-  margin-left: 12%;
-  margin-top: 3%;
+  margin-left: 24px;
+  margin-top: 2px;
   font-size: 50px;
   opacity: 0.4;
  // border: solid red;
@@ -179,7 +174,8 @@ const Hero = () => {
 
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['J', 'o', ' ', ' ',' ','h', 'u', 'a', ',']
+  const nameArray = ['','J', 'o',  
+    <img src={LogoTitle} alt="JavaScript Developer Name, Web Developer Name"/> ,'h', 'u', 'a', ',']
   const jobArray = [
     'S',
     'o',
@@ -216,48 +212,33 @@ const Hero = () => {
   {/* my name */}
  </div>
   <HeroContainer>
-   
-       <HeroInnerContainer>
-       <div  className="text-zone">
-                <h1 className="intro">
-                  <div className="bend">
-                  <span className={letterClass}>H</span>
-                  <span className={`${letterClass} _12`}>i,</span>
-                  </div>
-            
+  <div class="  flex-container">
+  <div className="box box-one">
+  <div className="text-zone">
+          <h1 align='left'>
+            <span className={letterClass}>H</span>
+            <span className={`${letterClass} _12`}>i,</span>
             <br />
-            <div className="bond">
-              <div className="spread">
-              <span className={`${letterClass} _13`}>I</span>
+            <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-
-              </div>
-              <div className="sprid">
-              <img
+            {/* <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
-            />
+            /> */} &nbsp; 
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={15}
             />
-              </div>
-          
-            </div>
-        
             <br />
-            <div className="band">
-
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
               idx={22}
             />
-            </div>
           </h1>
           <TextLoop>
-                
+          
                   <Span>
                     <Typewriter
                       options={{
@@ -267,57 +248,56 @@ const Hero = () => {
                       }}
                     />
                   </Span>
-                </TextLoop>
-                <a href="#Contact" className="flat-button">
-                   
-            CONTACT ME
-            </a>
-        
-            <a href="#Contact" className="flet-button">
-                   
-                   VIEW RESUME
-                   </a>
-                </div>
-   
-            <HeroRightContainer> 
-          
-            <div className="stage-cube-cont">
-          
-        <div id="stars"></div>
-       <div id="stars2"></div>
-       <div id="stars3"></div> 
+          </TextLoop>
+          <div className="link-container">
+  <Link to="Contact" href='#Contact' className="flat-button">
+    CONTACT ME
+  </Link> 
+  <a href={Bio.resume} className="flet-button" target="_blank"> 
+    VIEW RESUME
+  </a>
+</div>
        
-            <div className="cubespinner">
-            
-            <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#50C878" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
+        </div>
+  </div>
+  <div class="box box-two">
+ 
+          
+          <div className="stage-cube-cont">
+        
+      <div id="stars"></div>
+     <div id="stars2"></div>
+     <div id="stars3"></div> 
+     <div id="stars4"></div> 
+     
+          <div className="cubespinner">
+          
+          <div className="face1">
+            <FontAwesomeIcon icon={faNode} color="#0FFF50	" />
           </div>
+          <div className="face2">
+            <FontAwesomeIcon icon={faGolang} color="#F06529" />
           </div>
-              {/* <motion.div {...headContentAnimation}>
-                <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
-                </Tilt>
-              </motion.div> */}
-            </HeroRightContainer>
-          </HeroInnerContainer>
-        {/* </motion.div>
-       </HeroInnerContainer> */}
+          <div className="face3">
+            <FontAwesomeIcon icon={faJava} color="blue" />
+          </div>
+          <div className="face4">
+            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+          </div>
+          <div className="face5">
+            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+          </div>
+          <div className="face6">
+            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+          </div>
+        </div>
+        </div>
+          
+          
+  </div>
+</div>
+ 
+   
   </HeroContainer>
  
  </>

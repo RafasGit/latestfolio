@@ -35,6 +35,7 @@ const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
+  margin-left: -8%;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -66,7 +67,7 @@ const Experience = () => {
     data-aos-duration="2000" id="Experience">
       <Wrapper>
         <Title>
-        <h1>
+        <h1 id="Xp">
                    <AnimatedLetters
                      letterClass={letterClass}
                      strArray={['E','x','p','e','r', 'i ','e','n','c','e']}

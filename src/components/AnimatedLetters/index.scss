@@ -15,8 +15,10 @@
 
   &:hover {
     animation: rubberBand 1s;
-    color: red;   
- opacity: 0.2;
+    &:hover {
+      color: #ffd700;
+     }
+ opacity: 1;
   }
 }
 

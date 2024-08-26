@@ -42,12 +42,12 @@ const Company = styled.div`
   }
 `;
 const Date = styled.div`
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400px;
   color: ${({ theme }) => theme.text_secondary + 80};
 
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 14px;
   }
 `;
 const Grade = styled.div`
@@ -61,12 +61,13 @@ const Grade = styled.div`
 
 const Description = styled.div`
   width: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
+  text-align: left;
   color: ${({ theme }) => theme.text_primary + 99};
   margin-bottom: 10px;
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 16px;
   }
 `;
 const Span = styled.div`
@@ -80,11 +81,11 @@ const Skills = styled.div`
   margin-top: -10px;
 `;
 const Skill = styled.div`
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 99};
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 16px;
   }
 `;
 
@@ -117,6 +118,7 @@ const ExperienceCard = ({ experience }) => {
         backgroundColor: "${({ theme }) => theme.bg}",
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
+        
       }}
       contentArrowStyle={{
         borderRight: "7px solid  rgba(255, 255, 255, 0.3)",

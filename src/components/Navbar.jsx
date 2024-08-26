@@ -30,6 +30,8 @@ const NavbarContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   font-size: 1rem;
+   overflow: visible;
+
 `;
 const NavLogo = styled(LinkR)`
   display: flex;
@@ -128,12 +130,16 @@ const MobileMenu = styled.ul`
 @media screen and (max-width: 768px) {
  // border:solid red;
   display: flex;
+  //height: 280px;
+  overflow: auto;
   flex-direction: column;
   align-items: start;
   gap: 16px;
+  
   padding: 0 6px;
   list-style: none;
   width: 85%;
+  //height: fit-content;
   padding: 12px 40px 24px 40px;
   background: ${({ theme }) => theme.card_light + 99};
   position: absolute;
@@ -148,6 +154,10 @@ const MobileMenu = styled.ul`
   opacity: ${({ isOpen }) => (isOpen ? "400%" : "0%")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 }
+  @media screen and ( max-width:680px) and (max-height: 380px){
+  height: 280px;
+  }
+
 `;
 
 const Navbar = () => {
@@ -172,8 +182,9 @@ const Navbar = () => {
       <NavLink href="#Home">Home</NavLink>
         <NavLink href="#About">About</NavLink>
         <NavLink href="#Skills">Skills</NavLink>
+        <NavLink href="#Project">Projects</NavLink>
         <NavLink href="#Experience">Experience</NavLink>
-        <NavLink href="#Projects">Projects</NavLink>
+        <NavLink href="#Blogs">Articles</NavLink>
         <NavLink href="#Contact">Contact</NavLink>
       </NavItems>
 
@@ -188,11 +199,14 @@ const Navbar = () => {
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
             Skills
           </NavLink>
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
+            Projects
+          </NavLink>
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
             Experience
           </NavLink>
-          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-            Projects
+          <NavLink onClick={() => setIsOpen(!isOpen)} href="#Blogs">
+            Articles
           </NavLink>
           <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contact">
             Contact
